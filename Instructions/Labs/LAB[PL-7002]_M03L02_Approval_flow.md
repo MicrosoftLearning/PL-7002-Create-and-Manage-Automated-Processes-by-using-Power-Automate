@@ -6,7 +6,7 @@ lab:
 
 # Practice Lab 4 – Approval flow
 
-In this lab you will create cloud flows.
+In this lab you will create an approval flow.
 
 ## What you will learn
 
