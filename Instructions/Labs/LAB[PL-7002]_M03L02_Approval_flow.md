@@ -193,7 +193,7 @@ In this lab you will create an approval flow.
 
 1. Select the date and time in the flow run history.
 
-   > ** Note: The Approvals functionality will be install in the background. This will take approximately 10 minutes.
+    > ** Note: The Approvals functionality will be install in the background. This will take approximately 10 minutes.
 
 1. Select the **Approvals** tab from the left-side menu.
 
