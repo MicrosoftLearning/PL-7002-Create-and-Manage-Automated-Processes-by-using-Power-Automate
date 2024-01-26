@@ -73,7 +73,7 @@ In this lab you will create a scheduled flow.
 
 ### Task 1.4 - Select columns
 
-1. Select the **+** icon under the trigger step and select **Add an action**.
+1. Select the **+** icon under the New Tasks step and select **Add an action**.
 
 1. Enter `Select` in search.
 
@@ -107,7 +107,7 @@ In this lab you will create a scheduled flow.
 
 ### Task 1.5 - Create table
 
-1. Select the **+** icon under the trigger step and select **Add an action**.
+1. Select the **+** icon under the Select step and select **Add an action**.
 
 1. Enter `create html` in search.
 
@@ -123,7 +123,7 @@ In this lab you will create a scheduled flow.
 
 ### Task 1.6 - Send email
 
-1. Select the **+** icon under the trigger step and select **Add an action**.
+1. Select the **+** icon under the Create HTML table step and select **Add an action**.
 
 1. Enter `email` in search.
 
