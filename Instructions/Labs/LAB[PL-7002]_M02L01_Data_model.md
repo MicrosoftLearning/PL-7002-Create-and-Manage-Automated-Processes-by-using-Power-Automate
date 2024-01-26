@@ -141,6 +141,8 @@ In this lab you will create Dataverse tables and columns.
 
 1. In the left navigation pane, select **Tables**.
 
+1. Select **Opportunity**.
+
 1. In the **Opportunity columns and data** pane, select **+** and in the **New column** pane, enter or select the following values:
 
    1. Display name: `Account`
@@ -151,3 +153,57 @@ In this lab you will create Dataverse tables and columns.
     ![Screenshot of new lookup column pane.](../media/new-lookup.png)
 
 1. Select **Save**.
+
+## Exercise 3 – Data
+
+### Task 3.1 - Add opportunity records
+
+1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+
+1. Make sure you are in the **Dev One** environment.
+
+1. In the left navigation pane, select **Tables**.
+
+1. Select **Opportunity**.
+
+1. In the **Opportunity columns and data** pane, select the drop-down caret next to **Edit** and select **Edit in new tab**.
+
+1. Enter or select the following values:
+
+   1. Opportunity Subject: `100 Widgets`
+   1. Owner Name: `MOD Administrator`
+   1. Customer: `Adventure Works`
+   1. Estimated Close Date: **Pick a date in the previous month**
+   1. Status: **Closed**
+   1. Amount: `10,000`
+
+1. Select **Inset row below** and enter or select the following values:
+
+   1. Opportunity Subject: `Key customer`
+   1. Owner Name: `MOD Administrator`
+   1. Customer: `Fabrikam`
+   1. Estimated Close Date: **Pick a future date in the current month**
+   1. Status: **New**
+   1. Amount: `50,000`
+
+1. Select **Inset row below** and enter or select the following values:
+
+   1. Opportunity Subject: `New customer`
+   1. Owner Name: `MOD Administrator`
+   1. Customer: `Coho Winery`
+   1. Estimated Close Date: **Pick a future date in the next month**
+   1. Status: **New**
+   1. Amount: `25,000`
+
+1. Select **Inset row below** and enter or select the following values:
+
+   1. Opportunity Subject: `Repeat customer`
+   1. Owner Name: `MOD Administrator`
+   1. Customer: `Fourth Coffee`
+   1. Estimated Close Date: **Pick a future date in the next month**
+   1. Status: **Open**
+   1. Amount: `15,000`
+
+    ![Screenshot of edit data pane.](../media/edit-data.png)
+
+1. Close the edit data tab.
