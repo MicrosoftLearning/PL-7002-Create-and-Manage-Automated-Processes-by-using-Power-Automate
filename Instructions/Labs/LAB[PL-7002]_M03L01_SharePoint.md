@@ -15,7 +15,7 @@ In this lab you will create a SharePoint site and list.
 
 ## High-level lab steps
 
-- Create a SharePoint list for Opportunites
+- Create a SharePoint list for Opportunities
   
 ## Prerequisites
 
