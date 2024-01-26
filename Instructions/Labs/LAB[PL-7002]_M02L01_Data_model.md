@@ -85,6 +85,16 @@ In this lab you will create Dataverse tables and columns.
 
 1. Select **Save**.
 
+1. In the **New column** pane, enter or select the following values:
+
+   1. Display name: `Address`
+   1. Data type: **Single line of text**
+   1. Required: **Optional**
+
+1. Expand **Advanced option** and enter `200` for **Maximum character count**.
+
+1. Select **Save**.
+
 1. In the **Opportunity columns and data** pane, select **+** and in the **New column** pane, enter or select the following values:
 
    1. Display name: `Estimated Close Date`
