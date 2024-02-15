@@ -32,6 +32,8 @@ In this lab you will create cloud flows.
 
 1. Navigate to the Power Automate portal <https://make.powerautomate.com>.
 
+1. If the **Welcome to Power Automate** popup dialog is displayed, select **Get started**.
+
 1. Select the **Dev One** environment.
 
     ![Environment selector in Power Automate.](../media/select-dev-one-environment-power-automate.png)
@@ -53,6 +55,8 @@ In this lab you will create cloud flows.
 1. Select **Create** for **Notifications**.
 
 1. Select **Create Flow**.
+
+1. If the **Your flow is ready to go** popup dialog is displayed, select **Don't show me this again** and select **Got it**.
 
     ![Screenshot of flow details.](../media/flow-details.png)
 
@@ -144,6 +148,8 @@ In this lab you will create cloud flows.
 
 1. Test the flow.
 
+1. Select **Test**, select **Manually**, and then select **Test**.
+
 1. Select the **<-** Back button from the top left of the command bar.
 
 ## Exercise 3 – Create a cloud flow from blank
@@ -160,7 +166,7 @@ In this lab you will create cloud flows.
 
 1. Enter `Important email` for **Flow name**.
 
-1. Enter `email` in search.
+1. Enter `email` in search all triggers.
 
 1. Select **When a new email arrives (V3)**.
 
