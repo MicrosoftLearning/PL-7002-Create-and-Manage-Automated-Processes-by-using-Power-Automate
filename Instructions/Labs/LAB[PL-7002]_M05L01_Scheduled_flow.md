@@ -59,7 +59,7 @@ In this lab you will create a scheduled flow.
 
 1. Select **Get items** under **SharePoint**.
 
-1. Select **Get items** and enter `New tasks`.
+1. Select **Get items** step name and enter `New tasks`.
 
 1. Select the **Power Automate SharePoint site**.
 
@@ -83,7 +83,7 @@ In this lab you will create a scheduled flow.
 
 1. Select **From** field and select the Dynamic content icon.
 
-1. Select **Body/value** from **New tasks**.
+1. Select **body/value** from **New tasks**.
 
 1. Select **Enter key** field and enter `Task`.
 
@@ -99,11 +99,15 @@ In this lab you will create a scheduled flow.
 
 1. Select **Enter key** field and enter `Due`.
 
-1. Select **Enter value** field, select the Dynamic content icon.
+1. Select **Enter value** field, select the Dynamic content icon and select **See More**.
 
 1. Select **Deadline** from **New tasks**.
 
     ![Screenshot of Select action.](../media/select-action.png)
+
+1. If the flow designer has automatically added one or more For Each loops, drag the Select step outside of the loops and delete the loop(s).
+
+    ![Screenshot of flow steps without loops.](../media/flow-without-loops.png)
 
 ### Task 1.5 - Create table
 
@@ -113,7 +117,7 @@ In this lab you will create a scheduled flow.
 
 1. Select **Create HTML table** under **Data Operations**.
 
-1. Select **Create HTML table** and enter `Format as HTML table`.
+1. Select **Create HTML table** step name and enter `Format as HTML table`.
 
 1. Select **From** field and select the Dynamic content icon.
 
@@ -129,7 +133,7 @@ In this lab you will create a scheduled flow.
 
 1. Select **Send an email (V2)** under **Office 365 Outlook**.
 
-1. Select **Send an email (V2)** and enter `Notify by email`.
+1. Select **Send an email (V2)** step name and enter `Notify by email`.
 
 1. Select **To** field and select **Enter custom value**.
 
