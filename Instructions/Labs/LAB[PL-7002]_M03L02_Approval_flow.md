@@ -51,7 +51,7 @@ In this lab you will create an approval flow.
 
 1. Select the **When an item is created** step name and enter `New task`.
 
-1. Select the **Power Automate SharePoint site**.
+1. Select the **Power Automate SharePoint site** created in the previous lab. If the site is not listed, select **Enter custom value** and paste the URL of the Power Autmate SharePoint site
 
 1. Select the **Tasks** list.
 
@@ -71,7 +71,7 @@ In this lab you will create an approval flow.
 
 1. Select **Approve/Reject - First to respond** for **Approval Type**
 
-1. Select **Start and wait for an approval*** and enter `Approval`.
+1. Select **Start and wait for an approval** step name and enter `Approval`.
 
 1. Select **Title** field and select the Dynamic content icon.
 
@@ -97,10 +97,6 @@ In this lab you will create an approval flow.
 
 1. Select **Condition** under **Control**.
 
-1. Select **Save**.
-
-1. Select the **<-** Back button from the top left of the command bar.
-
 1. Select the left-hand **Choose a value** field and select the Dynamic content icon.
 
     ![Screenshot of dynamic content for a condition.](../media/add-condition.png)
@@ -121,7 +117,7 @@ In this lab you will create an approval flow.
 
 1. Select **Update Item** under **SharePoint**.
 
-1. Select **Update item** and enter `Set task to approved`.
+1. Select **Update item** step name and enter `Set task to approved`.
 
 1. Select the **Power Automate SharePoint site**.
 
@@ -145,7 +141,7 @@ In this lab you will create an approval flow.
 
 1. Select **Update Item** under **SharePoint**.
 
-1. Select **Update item 1** and enter `Set task to declined`.
+1. Select **Update item 1** step name and enter `Set task to declined`.
 
 1. Select the **Power Automate SharePoint site**.
 
@@ -161,7 +157,7 @@ In this lab you will create an approval flow.
 
 1. Select **Title** from **New task**.
 
-1. Select **Decline** for **Approval Status Value**.
+1. Select **Declined** for **Approval Status Value**.
 
 1. Select **Save**.
 
@@ -193,7 +189,7 @@ In this lab you will create an approval flow.
 
 1. Select the date and time in the flow run history.
 
-    > ** Note: The Approvals functionality will be install in the background. This will take approximately 10 minutes.
+    > ** Note:** The Approvals functionality will be install in the background. This will take approximately 10 minutes.
 
 1. Select the **Approvals** tab from the left-side menu.
 
