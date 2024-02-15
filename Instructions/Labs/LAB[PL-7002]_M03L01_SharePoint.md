@@ -27,7 +27,7 @@ In this lab you will create a SharePoint site and list.
 
 ### Task 1.1 Create a SharePoint site
 
-1. In the [Power Apps maker portal](https://make.powerapps.com) select the **App launcher** in the top left of the browser window and then select **OneDrive**.
+1. In the [Power Apps maker portal](https://make.powerapps.com) select the **App launcher** in the top left of the browser window and then select **SharePoint**.
 
 1. In SharePoint, select **+Create site**.
 
