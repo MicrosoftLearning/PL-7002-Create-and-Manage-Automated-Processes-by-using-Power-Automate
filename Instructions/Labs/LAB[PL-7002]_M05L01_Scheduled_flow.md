@@ -49,7 +49,7 @@ In this lab you will create a scheduled flow.
 
 1. Select the **Recurrence** step.
 
-1. Select **Manually trigger a flow** and enter `Daily`.
+1. Select the **Recurrence** step name and enter `Daily`.
 
 ### Task 1.3 - Query new tasks
 

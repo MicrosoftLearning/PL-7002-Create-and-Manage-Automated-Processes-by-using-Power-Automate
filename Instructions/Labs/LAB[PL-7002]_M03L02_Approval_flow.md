@@ -49,7 +49,7 @@ In this lab you will create an approval flow.
 
 1. Select the **When an item is created** step.
 
-1. Select **When an item is created** and enter `New task`.
+1. Select the **When an item is created** step name and enter `New task`.
 
 1. Select the **Power Automate SharePoint site**.
 

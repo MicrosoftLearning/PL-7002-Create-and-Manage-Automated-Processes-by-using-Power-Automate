@@ -72,7 +72,7 @@ In this lab you will filter on an update trigger.
 
 1. Select the **When a row is added, modified, or deleted** step.
 
-1. Select **When a row is added, modified, or deleted** and enter `Opportunity changed`.
+1. Select the **When a row is added, modified, or deleted** step name and enter `Opportunity changed`.
 
 1. Select **Modified** for **Change Type**.
 

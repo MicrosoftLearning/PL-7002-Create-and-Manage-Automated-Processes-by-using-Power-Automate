@@ -47,7 +47,7 @@ In this lab you will create a button flow.
 
 1. Select the **Manually trigger a flow** step.
 
-1. Select **Manually trigger a flow** and enter `Button clicked`.
+1. Select the **Manually trigger a flow** step name and enter `Button clicked`.
 
 1. Select **Add an input**.
 
