@@ -47,7 +47,7 @@ In this lab you will create a button flow.
 
 1. Select the **Manually trigger a flow** step.
 
-1. Select **Manually trigger a flow** and enter `Button clicked`.
+1. Select the **Manually trigger a flow** step name and enter `Button clicked`.
 
 1. Select **Add an input**.
 
@@ -85,11 +85,11 @@ In this lab you will create a button flow.
 
 1. Use your tenant credentials.
 
-1. Select **Add a new row** and enter `New opportunity`.
+1. Select **Add a new row** step name and enter `New opportunity`.
 
 1. Select **Opportunities** for **Table Name**
 
-1. Select **Customer** field and select the Dynamic content icon.
+1. Select **Customer** field and select the Dynamic content icon and select **See More**.
 
 1. Select **Customer Name**.
 
@@ -99,15 +99,11 @@ In this lab you will create a button flow.
 
 1. Select **Show all**.
 
-1. Select **Address** field and select the Dynamic content icon.
-
-1. Select **Full address**.
-
 1. Select **Amount** field and select the Dynamic content icon.
 
 1. Select **Potential Sale**.
 
-1. Select **Notes** field and select the Dynamic content icon.
+1. Select **Notes** field and select the Dynamic content icon and select **See More**.
 
 1. Select **Comments**.
 

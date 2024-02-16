@@ -40,13 +40,15 @@ In this lab you will filter on an update trigger.
 
 1. Select the **Status** column.
 
+    ![Screenshot of status columns.](../media/opportunity-status-column.png)
+
 1. Expand **Advanced options**.
 
     ![Screenshot of column schema name.](../media/column-schema-name.png)
 
 1. Copy the **logical name** for use in the flow.
 
-   > ** Note: The prefix for your status column will be different.
+   > **Note:** The prefix for your status column may be different.
 
 ## Exercise 2 – Create automated flow
 
@@ -62,7 +64,7 @@ In this lab you will filter on an update trigger.
 
 1. Enter `Opportunity Closed` for **Flow name**.
 
-1. Enter `Dataverse` in search.
+1. Enter `Dataverse` in search all triggers.
 
 1. Select **When a row is added, modified, or deleted**.
 
@@ -72,7 +74,7 @@ In this lab you will filter on an update trigger.
 
 1. Select the **When a row is added, modified, or deleted** step.
 
-1. Select **When a row is added, modified, or deleted** and enter `Opportunity changed`.
+1. Select the **When a row is added, modified, or deleted** step name and enter `Opportunity changed`.
 
 1. Select **Modified** for **Change Type**.
 
@@ -90,7 +92,7 @@ In this lab you will filter on an update trigger.
 
 1. Select **Send an email (V2)** under **Office 365 Outlook**.
 
-1. Select **Send an email (V2)** and enter `Notify by email`.
+1. Select **Send an email (V2)** step name and enter `Notify by email`.
 
 1. Select **To** field and select **Enter custom value**.
 
@@ -102,19 +104,19 @@ In this lab you will filter on an update trigger.
 
 1. Select **Opportunity Subject** from **Opportunity changed**.
 
-1. Select **Body** field and select the Dynamic content icon.
+1. Select **Body** field and select the Dynamic content icon and select **See More**.
 
 1. Select **Status** from **Opportunity changed**.
 
 ### Task 2.4 - Column filter
 
-1. Select the **Opportunity changed** step.
+1. Select the **Opportunity changed** trigger step.
 
 1. Select **Show all**
 
 1. Select the **Select Columns** field and enter `cr977_status`
 
-   > ** Note: The prefix for your status column will be different.
+   > **Note:** The prefix for your status column will be different.
 
 ### Task 2.5 - Row filter
 
@@ -126,7 +128,7 @@ In this lab you will filter on an update trigger.
 
     ![Screenshot of trigger filter.](../media/trigger-filter.png)
 
-    > ** Note: The prefix for your status column will be different.
+    > **Note:** The prefix for your status column will be different.
 
 1. Select **Save**.
 
