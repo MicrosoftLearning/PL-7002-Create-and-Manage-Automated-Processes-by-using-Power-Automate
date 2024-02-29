@@ -29,11 +29,11 @@ In this lab you will create an approval flow.
 
 ### Task 1.1 - Create the trigger
 
-1. Navigate to the Power Automate portal <https://make.powerautomate.com>.
+1. Navigate to the Power Automate portal `https://make.powerautomate.com`
 
 1. Make sure you are in the **Dev One** environment.
 
-1. Select the **+ Create** tab from the left-side menu.
+1. Select the **+ Create** tab from the left navigation panel.
 
 1. Select **Automated cloud flow**.
 
@@ -44,6 +44,7 @@ In this lab you will create an approval flow.
 1. Select **When an item is created**.
 
 1. Select **Create**.
+
 
 ### Task 1.2 - Configure the trigger
 
@@ -56,6 +57,7 @@ In this lab you will create an approval flow.
 1. Select the **Tasks** list.
 
     ![Screenshot of SharePoint trigger.](../media/sharepoint-trigger.png)
+
 
 ### Task 1.3 - Add approval action
 
@@ -89,6 +91,7 @@ In this lab you will create an approval flow.
 
 1. Select **Link to item**.
 
+
 ### Task 1.4 - Add condition
 
 1. Select the **+** icon under the approval step and select **Add an action**.
@@ -108,6 +111,7 @@ In this lab you will create an approval flow.
 1. Select the right-hand **Choose a value** field and enter `Approve`.
 
     ![Screenshot of the condition.](../media/condition.png)
+
 
 ### Task 1.5 - Update status actions
 
@@ -163,6 +167,7 @@ In this lab you will create an approval flow.
 
 1. Select the **<-** Back button from the top left of the command bar.
 
+
 ## Exercise 2 – Test approval
 
 ### Task 2.1 - Trigger approval flow
@@ -177,13 +182,14 @@ In this lab you will create an approval flow.
    1. Deadline=**Today**
    1. Approval Status=**New**
 
+
 ### Task 2.2 - Progress approval
 
 1. Navigate to the Power Automate portal <https://make.powerautomate.com>.
 
 1. Make sure you are in the **Dev One** environment.
 
-1. Select the **My flows** tab from the left-side menu.
+1. Select the **My flows** tab from the left navigation menu.
 
 1. Select **Task approval**.
 
@@ -191,7 +197,7 @@ In this lab you will create an approval flow.
 
     > **Note:** The Approvals functionality will be install in the background. This will take approximately 10 minutes.
 
-1. Select the **Approvals** tab from the left-side menu.
+1. Select the **Approvals** tab from the left navigation menu.
 
     ![Screenshot of approvals in the portal.](../media/approvals.png)
 
