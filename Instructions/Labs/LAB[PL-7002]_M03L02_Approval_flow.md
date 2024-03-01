@@ -185,7 +185,7 @@ In this lab you will create an approval flow.
 
 ### Task 2.2 - Progress approval
 
-1. Navigate to the Power Automate portal <https://make.powerautomate.com>.
+1. Navigate to the Power Automate portal `https://make.powerautomate.com`
 
 1. Make sure you are in the **Dev One** environment.
 
