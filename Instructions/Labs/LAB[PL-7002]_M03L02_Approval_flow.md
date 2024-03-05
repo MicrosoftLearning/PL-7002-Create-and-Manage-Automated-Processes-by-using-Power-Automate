@@ -73,23 +73,23 @@ In this lab you will create an approval flow.
 
 1. Select **Approve/Reject - First to respond** for **Approval Type**
 
-1. Select **Start and wait for an approval** step name and enter `Approval`.
+1. Select **Start and wait for an approval** step name and enter `Approval`
 
-1. Select **Title** field and select the Dynamic content icon.
+1. Enter `/` into the **Title** field and select **Insert Dynamic Content**.
+
+1. Select **Title** under **New Task**.
 
     ![Screenshot of dynamic content for SharePoint item.](../media/sharepoint-dynamic-content.png)
 
-1. Select **Title**.
-
 1. Enter your tenant user id for **Assigned To**.
 
-1. Select **Details** field and select the Dynamic content icon.
+1. Enter `/` into the **Details** field and select select **Insert Dynamic Content**.
 
 1. Select **Description**.
 
-1. Select **Item Link** field and select the Dynamic content icon and select **See More**.
+1. Enter `/` into the **Item Link** field and select **Insert Dynamic Content**. 
 
-1. Select **Link to item**.
+1. Select **See More**, select **Link to item**.
 
 
 ### Task 1.4 - Add condition
@@ -100,7 +100,7 @@ In this lab you will create an approval flow.
 
 1. Select **Condition** under **Control**.
 
-1. Select the left-hand **Choose a value** field and select the Dynamic content icon.
+1. Enter `/` into the left **Choose a value** field and select **Insert Dynamic Content**.
 
     ![Screenshot of dynamic content for a condition.](../media/add-condition.png)
 
@@ -108,7 +108,7 @@ In this lab you will create an approval flow.
 
 1. Select **is equal to** for **Operator**.
 
-1. Select the right-hand **Choose a value** field and enter `Approve`.
+1. Select the right **Choose a value** field and enter `Approve`
 
     ![Screenshot of the condition.](../media/condition.png)
 
@@ -127,13 +127,13 @@ In this lab you will create an approval flow.
 
 1. Select the **Tasks** list.
 
-1. Select **Id** field and select the Dynamic content icon.
+1. Enter `/` into the **Id** field and select **Insert Dynamic Content**.
 
 1. Select **Id** from **New task**.
 
 1. Select **Show all**.
 
-1. Select **Title** field and select the Dynamic content icon.
+1. Enter `/` into the **Title** field and select **Insert Dynamic Content**.
 
 1. Select **Title** from **New task**.
 
@@ -157,7 +157,7 @@ In this lab you will create an approval flow.
 
 1. Select **Show all**.
 
-1. Select **Title** field and select the Dynamic content icon.
+1. Enter `/` into the **Title** field and select **Insert Dynamic Content**.
 
 1. Select **Title** from **New task**.
 
@@ -205,7 +205,7 @@ In this lab you will create an approval flow.
 
 1. Select **Done**.
 
-1. Select the **My flows** tab from the left-side menu.
+1. Select the **My flows** tab from the left navigation menu.
 
 1. Select **Task approval**.
 
