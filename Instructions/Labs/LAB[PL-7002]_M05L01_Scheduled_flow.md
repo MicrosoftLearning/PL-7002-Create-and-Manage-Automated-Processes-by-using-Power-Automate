@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 6: Scheduled flow'
-    module: 'Module 5: Power Automate's deep integration across multiple data sources'
+    module: 'Module 5: Power Automate’s deep integration across multiple data sources'
 ---
 
 # Practice Lab 6 – Scheduled flow
