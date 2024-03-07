@@ -29,7 +29,7 @@ In this lab you will create a button flow.
 
 ### Task 1.1 - Create the trigger
 
-1. Navigate to the Power Automate portal <https://make.powerautomate.com>.
+1. Navigate to the Power Automate portal `https://make.powerautomate.com`
 
 1. Make sure you are in the **Dev One** environment.
 
@@ -43,11 +43,12 @@ In this lab you will create a button flow.
 
 1. Select **Create**.
 
+
 ### Task 1.2 - Add user input
 
 1. Select the **Manually trigger a flow** step.
 
-1. Select the **Manually trigger a flow** step name and enter `Button clicked`.
+1. Select the **Manually trigger a flow** step name and enter `Button clicked`
 
 1. Select **Add an input**.
 
@@ -73,6 +74,7 @@ In this lab you will create a button flow.
 
     ![Screenshot of user input.](../media/user-input.png)
 
+
 ### Task 1.3 - Add create opportunity action
 
 1. Select the **+** icon under the trigger step and select **Add an action**.
@@ -89,17 +91,17 @@ In this lab you will create a button flow.
 
 1. Select **Opportunities** for **Table Name**
 
-1. Select **Customer** field and select the Dynamic content icon and select **See More**.
+1. Enter `/` into the **Customer** field and select **Insert Dynamic Content**, select **See More**.
 
 1. Select **Customer Name**.
 
-1. Select **Opportunity Subject** field and enter `New opportunity`.
+1. Select **Opportunity Subject** field and enter `New opportunity`
 
-1. Select **Owner Name** field and enter `MOD Administrator`.
+1. Select **Owner Name** field and enter `MOD Administrator`
 
 1. Select **Show all**.
 
-1. Select **Amount** field and select the Dynamic content icon.
+1. Enter `/` into the **Amount** field and select **Insert Dynamic Content**.
 
 1. Select **Potential Sale**.
 
@@ -107,13 +109,14 @@ In this lab you will create a button flow.
 
 1. Select **Comments**.
 
-1. Select **Estimated Close Date** field and select the expression icon.
+1. Enter `/` into the **Estimated Close Date** field and select **Insert Expression**.
 
 1. Enter the expression `addDays(utcNow(),30)` and select **Add**.
 
     ![Screenshot of new opportunity action.](../media/new-opportunity-action.png)
 
 1. Select **Save**.
+
 
 ## Exercise 2 – Test button flow
 
@@ -139,12 +142,14 @@ In this lab you will create a button flow.
 
 1. Select the **<-** Back button from the top left of the command bar.
 
+
 ### Task 2.2 - Verify opportunity record created
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Dev One** environment.
 
 1. In the left navigation pane, select **Tables**.
 
 1. Select **Opportunity**.
+
