@@ -48,11 +48,11 @@ In this lab you will create a button flow.
 
 1. Select the **Manually trigger a flow** step.
 
-1. Select the **Manually trigger a flow** step name and enter `Button clicked`
+1. Select the **Manually trigger a flow** step name and enter `Button triggered`
 
 1. Select **Add an input**.
 
-1. Select **Text**
+1. Select **Text**.
 
 1. Enter `Customer Name` in **Input**.
 
@@ -81,7 +81,7 @@ In this lab you will create a button flow.
 
 1. Enter `add row` in search.
 
-1. Select **Add a new row** under **Dataverse**.
+1. Select **Add a new row** under **Microsoft Dataverse**.
 
 1. Select **Sign In**
 
@@ -89,7 +89,7 @@ In this lab you will create a button flow.
 
 1. Select **Add a new row** step name and enter `New opportunity`.
 
-1. Select **Opportunities** for **Table Name**
+1. Select **Opportunities** for **Table Name**.
 
 1. Enter `/` into the **Customer** field and select **Insert Dynamic Content**, select **See More**.
 
