@@ -83,7 +83,7 @@ In this lab you will create an approval flow.
 
 1. Enter your tenant user id for **Assigned To**.
 
-1. Enter `/` into the **Details** field and select select **Insert Dynamic Content**.
+1. Enter `/` into the **Details** field and select **Insert Dynamic Content**.
 
 1. Select **Description**.
 
@@ -121,7 +121,7 @@ In this lab you will create an approval flow.
 
 1. Select **Update Item** under **SharePoint**.
 
-1. Select **Update item** step name and enter `Set task to approved`.
+1. Select **Update item** step name and enter `Set task to approved`
 
 1. Select the **Power Automate SharePoint site**.
 
@@ -129,9 +129,9 @@ In this lab you will create an approval flow.
 
 1. Enter `/` into the **Id** field and select **Insert Dynamic Content**.
 
-1. Select **Id** from **New task**.
+1. Select **ID** from **New task**.
 
-1. Select **Show all**.
+1. Select **Show all** under **Advanced parameters**.
 
 1. Enter `/` into the **Title** field and select **Insert Dynamic Content**.
 
@@ -151,9 +151,9 @@ In this lab you will create an approval flow.
 
 1. Select the **Tasks** list.
 
-1. Select **Id** field and select the Dynamic content icon.
+1. Enter `/` into the **Id** field and select **Insert Dynamic Content**.
 
-1. Select **Id** from **New task**.
+1. Select **ID** from **New task**.
 
 1. Select **Show all**.
 
@@ -195,7 +195,7 @@ In this lab you will create an approval flow.
 
 1. Select the date and time in the flow run history.
 
-    > **Note:** The Approvals functionality will be install in the background. This will take approximately 10 minutes.
+    > **Note:** The Approvals functionality will be installed in the background. This will take approximately 10 minutes.
 
 1. Select the **Approvals** tab from the left navigation menu.
 
@@ -209,8 +209,9 @@ In this lab you will create an approval flow.
 
 1. Select **Task approval**.
 
-1. Select the date and time in the flow run history.
+1. Select the date and time in the **28-day run history**.
 
 1. Navigate to the SharePoint site and select the **Tasks** list.
 
 1. Verify that the **Approval status** of the **Approval test** item is **Approved**.
+
