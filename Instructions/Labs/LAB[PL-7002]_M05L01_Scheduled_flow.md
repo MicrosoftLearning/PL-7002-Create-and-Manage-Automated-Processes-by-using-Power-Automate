@@ -39,7 +39,7 @@ In this lab you will create a scheduled flow.
 
 1. Enter `Daily New Tasks` for **Flow name**.
 
-1. Select **Day**.
+1. Set **Repeat every** to **1** **Day**.
 
     ![Screenshot of build a scheduled flow.](../media/build-scheduled-flow.png)
 
@@ -67,7 +67,7 @@ In this lab you will create a scheduled flow.
 
 1. Select the **Tasks** list.
 
-1. Select **Show all**.
+1. Under **Advanced parameters**, select **Show all**.
 
 1. Select the **Filter Query** field and enter `ApprovalStatus eq 'New'`
 
@@ -76,7 +76,7 @@ In this lab you will create a scheduled flow.
 
 ### Task 1.4 - Select columns
 
-1. Select the **+** icon under the New Tasks step and select **Add an action**.
+1. Select the **+** icon under the **New tasks** step and select **Add an action**.
 
 1. Enter `Select` in search.
 
@@ -119,7 +119,7 @@ In this lab you will create a scheduled flow.
 
 1. Enter `create html` in search.
 
-1. Select **Create HTML table** under **Data Operations**.
+1. Select **Create HTML table** under **Data Operation**.
 
 1. Select **Create HTML table** step name and enter `Format as HTML table`
 
@@ -132,7 +132,7 @@ In this lab you will create a scheduled flow.
 
 ### Task 1.6 - Send email
 
-1. Select the **+** icon under the Create HTML table step and select **Add an action**.
+1. Select the **+** icon under the **Format as HTML table** step and select **Add an action**.
 
 1. Enter `email` in search.
 
