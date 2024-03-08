@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 7: Trigger filters'
-    module: 'Module 5: Power Automate's deep integration across multiple data sources'
+    module: 'Module 5: Power Automate’s deep integration across multiple data sources'
 ---
 
 # Practice Lab 7 – Trigger filters
