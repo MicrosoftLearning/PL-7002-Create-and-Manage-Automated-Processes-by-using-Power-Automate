@@ -30,9 +30,9 @@ In this lab you will create cloud flows.
 
 ### Task 1.1 - Select a template
 
-1. Navigate to the Power Automate portal <https://make.powerautomate.com>.
+1. Navigate to the Power Automate portal `https://make.powerautomate.com`
 
-1. If the **Welcome to Power Automate** popup dialog is displayed, select **Get started**.
+1. If the **Welcome to Power Automate** pop-up dialog is displayed, select **Get started**.
 
 1. Select the **Dev One** environment.
 
@@ -42,7 +42,7 @@ In this lab you will create cloud flows.
 
 1. Select the **Button** tab.
 
-1. Enter `location` in the search field
+1. Enter `location` in the **Search templates** field.
 
     ![Screenshot of flow templates.](../media/flow-templates.png)
 
@@ -56,9 +56,10 @@ In this lab you will create cloud flows.
 
 1. Select **Create Flow**.
 
-1. If the **Your flow is ready to go** popup dialog is displayed, select **Don't show me this again** and select **Got it**.
+1. If the **Your flow is ready to go** pop-up dialog is displayed, select **Don't show me this again** and select **Got it**.
 
     ![Screenshot of flow details.](../media/flow-details.png)
+
 
 ### Task 1.2 - Run the flow
 
@@ -74,6 +75,7 @@ In this lab you will create cloud flows.
 
     ![Screenshot of flow run history.](../media/run-history.png)
 
+
 ### Task 1.3 - Review the flow
 
 1. Select the date and time in the flow run history.
@@ -88,17 +90,18 @@ In this lab you will create cloud flows.
 
     ![Screenshot of flow run step output.](../media/flow-run-step.png)
 
-1. Select **Edit**
+1. Select **Edit**.
 
 1. Select the **Condition** step to expand the flow steps.
 
-1. Select **Expand condition**
+1. Select **Expand condition**.
 
 1. Select one of the **Send a push notification** steps.
 
 1. Select **Flow checker**. There should be no errors or warnings.
 
 1. Close the **Flow checker** pane.
+
 
 ### Task 1.4 - Test the flow
 
@@ -110,17 +113,18 @@ In this lab you will create cloud flows.
 
 1. Select the **<-** Back button from the top left of the command bar.
 
+
 ## Exercise 2 – Create a cloud flow with CoPilot
 
 ### Task 2.1 - Enter a prompt
 
-1. Navigate to the Power Automate portal <https://make.powerautomate.com>.
+1. Navigate to the Power Automate portal `https://make.powerautomate.com` 
 
 1. Make sure you are in the **Dev One** environment.
 
 1. Select the **Home** tab from the left-side menu.
 
-1. Under **Let's automate something. What should it do?** enter `Every day send me an email with the daily summary from MSN Weather`.
+1. Under **Let's automate something. What should it do?** enter `Every day send me an email with the daily summary from MSN Weather`
 
     ![Screenshot of copilot prompt.](../media/copilot-prompt.png)
 
@@ -134,29 +138,29 @@ In this lab you will create cloud flows.
 
     ![Screenshot of flow created by Copilot.](../media/copilot-flow.png)
 
+
 ### Task 2.2 - Configure flow step
 
 1. Select the **Get Forecast for today** step.
 
-    ![Screenshot of flow step parameters.](../media/flow-step-parameters.png)
-
 1. Enter `Seattle` for **Location**.
 
-1. Select the **X** to clear **Units** and in the drop-down select **Imperial**
+1. Select the **X** to clear **Units** and in the drop-down select **Imperial**.
 
-1. Select **Save**
+    ![Screenshot of flow step parameters.](../media/flow-step-parameters.png)
 
-1. Test the flow.
+1. Select **Save**.
 
-1. Select **Test**, select **Manually**, and then select **Test**.
+1. To test the flow, select **Test**, select **Manually**, and then select **Run flow**. Select **Done**.
 
 1. Select the **<-** Back button from the top left of the command bar.
+
 
 ## Exercise 3 – Create a cloud flow from blank
 
 ### Task 3.1 - Create the trigger
 
-1. Navigate to the Power Automate portal <https://make.powerautomate.com>.
+1. Navigate to the Power Automate portal `https://make.powerautomate.com`
 
 1. Make sure you are in the **Dev One** environment.
 
@@ -166,13 +170,14 @@ In this lab you will create cloud flows.
 
 1. Enter `Important email` for **Flow name**.
 
-1. Enter `email` in search all triggers.
+1. Enter `email arrives` in the **Search all triggers** field.
 
 1. Select **When a new email arrives (V3)**.
 
     ![Screenshot of build an automated flow dialog.](../media/build-automated-flow.png)
 
 1. Select **Create**.
+
 
 ### Task 3.2 - Configure the trigger
 
@@ -187,6 +192,7 @@ In this lab you will create cloud flows.
 1. Select **High** for **Importance**.
 
 1. Select **Inbox** for **Folder**.
+
 
 ### Task 3.3 - Add an action
 
@@ -206,7 +212,7 @@ In this lab you will create cloud flows.
 
 1. Enter your tenant user id for **Recipient**.
 
-1. Select **Notification Text** field and select the Dynamic content icon.
+1. Enter `/` in the **Notification Text** field and select **Insert Dynamic Content**.
 
     ![Screenshot of dynamic content.](../media/flow-dynamic-content.png)
 
@@ -220,11 +226,12 @@ In this lab you will create cloud flows.
 
 1. Select the **<-** Back button from the top left of the command bar.
 
+
 ## Exercise 4 – Monitor flows
 
 ### Task 4.1 - Cloud flow activity
 
-1. Navigate to the Power Automate portal <https://make.powerautomate.com>.
+1. Navigate to the Power Automate portal `https://make.powerautomate.com`
 
 1. Make sure you are in the **Dev One** environment.
 
@@ -237,3 +244,4 @@ In this lab you will create cloud flows.
 1. Select the **Cloud flow activity** tab from the left-side menu.
 
     ![Screenshot of cloud flow activity.](../media/cloud-flow-activity.png)
+

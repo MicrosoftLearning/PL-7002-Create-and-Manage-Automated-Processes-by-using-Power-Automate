@@ -27,9 +27,11 @@ In this lab you will create a SharePoint site and list.
 
 ### Task 1.1 Create a SharePoint site
 
-1. In the [Power Apps maker portal](https://make.powerapps.com) select the **App launcher** in the top left of the browser window and then select **SharePoint**.
+1. In the Power Apps maker portal, `https://make.powerapps.com`
 
-1. If the **Welcome to SharePoint Start Page** popup dialog is displayed, select **X** to close the dialog.
+1. Select the **App launcher** in the top left of the browser window and then select **SharePoint**.
+
+1. If the **Welcome to SharePoint Start Page** pop-up dialog is displayed, select **X** to close the dialog.
 
 1. In SharePoint, select **+ Create site**.
 
@@ -41,7 +43,7 @@ In this lab you will create a SharePoint site and list.
 
 1. Select **Finish**.
 
-1. If the **Start designing your site** popup dialog is displayed, close the dialog.
+1. If the **Start designing your site** pop-up dialog is displayed, close the dialog.
 
 ### Task 1.2 Create a SharePoint list
 
@@ -98,6 +100,7 @@ In this lab you will create a SharePoint site and list.
 
 1. Copy the first part of the URL of the SharePoint site, for example `https://m365x99999999.sharepoint.com/sites/PowerAutomate/`
 
+
 ## Exercise 2 – Add data SharePoint list
 
 ### Task 2.1 - Add data
@@ -131,3 +134,4 @@ In this lab you will create a SharePoint site and list.
    1. Approval Status=**New**
 
     ![Screenshot of the SharePoint Tasks data.](../media/tasks-data.png)
+
