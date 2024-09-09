@@ -29,11 +29,11 @@ In this lab you will create an approval flow.
 
 ### Task 1.1 - Create the trigger
 
-1. Navigate to the Power Automate portal <https://make.powerautomate.com>.
+1. Navigate to the Power Automate portal `https://make.powerautomate.com`
 
 1. Make sure you are in the **Dev One** environment.
 
-1. Select the **+ Create** tab from the left-side menu.
+1. Select the **+ Create** tab from the left navigation panel.
 
 1. Select **Automated cloud flow**.
 
@@ -44,6 +44,7 @@ In this lab you will create an approval flow.
 1. Select **When an item is created**.
 
 1. Select **Create**.
+
 
 ### Task 1.2 - Configure the trigger
 
@@ -56,6 +57,7 @@ In this lab you will create an approval flow.
 1. Select the **Tasks** list.
 
     ![Screenshot of SharePoint trigger.](../media/sharepoint-trigger.png)
+
 
 ### Task 1.3 - Add approval action
 
@@ -71,23 +73,24 @@ In this lab you will create an approval flow.
 
 1. Select **Approve/Reject - First to respond** for **Approval Type**
 
-1. Select **Start and wait for an approval** step name and enter `Approval`.
+1. Select **Start and wait for an approval** step name and enter `Approval`
 
-1. Select **Title** field and select the Dynamic content icon.
+1. Enter `/` into the **Title** field and select **Insert Dynamic Content**.
+
+1. Select **Title** under **New Task**.
 
     ![Screenshot of dynamic content for SharePoint item.](../media/sharepoint-dynamic-content.png)
 
-1. Select **Title**.
-
 1. Enter your tenant user id for **Assigned To**.
 
-1. Select **Details** field and select the Dynamic content icon.
+1. Enter `/` into the **Details** field and select **Insert Dynamic Content**.
 
 1. Select **Description**.
 
-1. Select **Item Link** field and select the Dynamic content icon and select **See More**.
+1. Enter `/` into the **Item Link** field and select **Insert Dynamic Content**. 
 
-1. Select **Link to item**.
+1. Select **See More**, select **Link to item**.
+
 
 ### Task 1.4 - Add condition
 
@@ -97,7 +100,7 @@ In this lab you will create an approval flow.
 
 1. Select **Condition** under **Control**.
 
-1. Select the left-hand **Choose a value** field and select the Dynamic content icon.
+1. Enter `/` into the left **Choose a value** field and select **Insert Dynamic Content**.
 
     ![Screenshot of dynamic content for a condition.](../media/add-condition.png)
 
@@ -105,9 +108,10 @@ In this lab you will create an approval flow.
 
 1. Select **is equal to** for **Operator**.
 
-1. Select the right-hand **Choose a value** field and enter `Approve`.
+1. Select the right **Choose a value** field and enter `Approve`
 
     ![Screenshot of the condition.](../media/condition.png)
+
 
 ### Task 1.5 - Update status actions
 
@@ -117,19 +121,19 @@ In this lab you will create an approval flow.
 
 1. Select **Update Item** under **SharePoint**.
 
-1. Select **Update item** step name and enter `Set task to approved`.
+1. Select **Update item** step name and enter `Set task to approved`
 
 1. Select the **Power Automate SharePoint site**.
 
 1. Select the **Tasks** list.
 
-1. Select **Id** field and select the Dynamic content icon.
+1. Enter `/` into the **Id** field and select **Insert Dynamic Content**.
 
-1. Select **Id** from **New task**.
+1. Select **ID** from **New task**.
 
-1. Select **Show all**.
+1. Select **Show all** under **Advanced parameters**.
 
-1. Select **Title** field and select the Dynamic content icon.
+1. Enter `/` into the **Title** field and select **Insert Dynamic Content**.
 
 1. Select **Title** from **New task**.
 
@@ -147,13 +151,13 @@ In this lab you will create an approval flow.
 
 1. Select the **Tasks** list.
 
-1. Select **Id** field and select the Dynamic content icon.
+1. Enter `/` into the **Id** field and select **Insert Dynamic Content**.
 
-1. Select **Id** from **New task**.
+1. Select **ID** from **New task**.
 
 1. Select **Show all**.
 
-1. Select **Title** field and select the Dynamic content icon.
+1. Enter `/` into the **Title** field and select **Insert Dynamic Content**.
 
 1. Select **Title** from **New task**.
 
@@ -162,6 +166,7 @@ In this lab you will create an approval flow.
 1. Select **Save**.
 
 1. Select the **<-** Back button from the top left of the command bar.
+
 
 ## Exercise 2 – Test approval
 
@@ -177,21 +182,22 @@ In this lab you will create an approval flow.
    1. Deadline=**Today**
    1. Approval Status=**New**
 
+
 ### Task 2.2 - Progress approval
 
-1. Navigate to the Power Automate portal <https://make.powerautomate.com>.
+1. Navigate to the Power Automate portal `https://make.powerautomate.com`
 
 1. Make sure you are in the **Dev One** environment.
 
-1. Select the **My flows** tab from the left-side menu.
+1. Select the **My flows** tab from the left navigation menu.
 
 1. Select **Task approval**.
 
 1. Select the date and time in the flow run history.
 
-    > **Note:** The Approvals functionality will be install in the background. This will take approximately 10 minutes.
+    > **Note:** The Approvals functionality will be installed in the background. This will take approximately 10 minutes.
 
-1. Select the **Approvals** tab from the left-side menu.
+1. Select the **Approvals** tab from the left navigation menu.
 
     ![Screenshot of approvals in the portal.](../media/approvals.png)
 
@@ -199,12 +205,13 @@ In this lab you will create an approval flow.
 
 1. Select **Done**.
 
-1. Select the **My flows** tab from the left-side menu.
+1. Select the **My flows** tab from the left navigation menu.
 
 1. Select **Task approval**.
 
-1. Select the date and time in the flow run history.
+1. Select the date and time in the **28-day run history**.
 
 1. Navigate to the SharePoint site and select the **Tasks** list.
 
 1. Verify that the **Approval status** of the **Approval test** item is **Approved**.
+

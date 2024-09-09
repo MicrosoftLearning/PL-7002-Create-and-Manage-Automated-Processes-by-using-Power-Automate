@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 7: Trigger filters'
-    module: 'Module 5: Power Automate's deep integration across multiple data sources'
+    module: 'Module 5: Power Automate’s deep integration across multiple data sources'
 ---
 
 # Practice Lab 7 – Trigger filters
@@ -28,13 +28,13 @@ In this lab you will filter on an update trigger.
 
 ### Task 1.1 - Column schema name
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Dev One** environment.
 
 1. In the left navigation pane, select **Tables**.
 
-1. Select **Opportunity**
+1. Select **Opportunity**.
 
 1. Under **Schema**, select **Columns**.
 
@@ -46,19 +46,20 @@ In this lab you will filter on an update trigger.
 
     ![Screenshot of column schema name.](../media/column-schema-name.png)
 
-1. Copy the **logical name** for use in the flow.
+1. Copy the **Logical name** for use in the flow.
 
-   > **Note:** The prefix for your status column may be different.
+   > **Note:** The prefix for your Status column may be different.
+
 
 ## Exercise 2 – Create automated flow
 
 ### Task 2.1 - Create the trigger
 
-1. Navigate to the Power Automate portal <https://make.powerautomate.com>.
+1. Navigate to the Power Automate portal `https://make.powerautomate.com`
 
 1. Make sure you are in the **Dev One** environment.
 
-1. Select the **+ Create** tab from the left-side menu.
+1. Select the **+ Create** tab from the left navigation menu.
 
 1. Select **Automated cloud flow**.
 
@@ -70,19 +71,21 @@ In this lab you will filter on an update trigger.
 
 1. Select **Create**.
 
+
 ### Task 2.2 - Configure the trigger
 
 1. Select the **When a row is added, modified, or deleted** step.
 
-1. Select the **When a row is added, modified, or deleted** step name and enter `Opportunity changed`.
+1. Select the **When a row is added, modified, or deleted** step name and enter `Opportunity changed`
 
 1. Select **Modified** for **Change Type**.
 
-1. Select **Opportunities** for **Table Name**
+1. Select **Opportunities** for **Table Name**.
 
-1. Select **Organization** for **Scope**
+1. Select **Organization** for **Scope**.
 
     ![Screenshot of update row trigger.](../media/update-trigger.png)
+
 
 ### Task 2.3 - Send email
 
@@ -92,13 +95,13 @@ In this lab you will filter on an update trigger.
 
 1. Select **Send an email (V2)** under **Office 365 Outlook**.
 
-1. Select **Send an email (V2)** step name and enter `Notify by email`.
+1. Select **Send an email (V2)** step name and enter `Notify by email`
 
 1. Select **To** field and select **Enter custom value**.
 
 1. Enter your tenant user id for **To**.
 
-1. Select **Subject** field and enter `Opportunity closed`.
+1. Select **Subject** field and enter `Opportunity closed`
 
 1. Select **Body** field and select the Dynamic content icon.
 
@@ -108,15 +111,17 @@ In this lab you will filter on an update trigger.
 
 1. Select **Status** from **Opportunity changed**.
 
+
 ### Task 2.4 - Column filter
 
 1. Select the **Opportunity changed** trigger step.
 
 1. Select **Show all**
 
-1. Select the **Select Columns** field and enter `cr977_status`
+1. Select the **Select Columns** field and enter the **Logical name** from the previous exercise, for example: `cr977_status`
 
    > **Note:** The prefix for your status column will be different.
+
 
 ### Task 2.5 - Row filter
 
@@ -124,7 +129,7 @@ In this lab you will filter on an update trigger.
 
 1. Select **Show all**
 
-1. Select the **Filter Rows** field and enter `cr977_status eq 3`
+1. Select the **Filter Rows** field and enter `cr977_status eq 3` using the **Logical name** from the previous exercise.
 
     ![Screenshot of trigger filter.](../media/trigger-filter.png)
 
@@ -132,4 +137,5 @@ In this lab you will filter on an update trigger.
 
 1. Select **Save**.
 
-1. Select the **<-** Back button from the top left of the command bar.
+1. Select the **<-** **Back** button from the top left of the command bar.
+

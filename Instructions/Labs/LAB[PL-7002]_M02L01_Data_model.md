@@ -29,7 +29,7 @@ In this lab you will create Dataverse tables and columns.
 
 ### Task 1.1 - Create the Opportunity table
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Dev One** environment.
 
@@ -39,13 +39,14 @@ In this lab you will create Dataverse tables and columns.
 
     ![Screenshot of creating a new table in Dataverse.](../media/create-new-table-dataverse.png)
 
-1. Select the **pencil** icon next to New table
+1. Select **Edit table properties**.
 
     ![Screenshot of new table name.](../media/table-name.png)
 
 1. Enter `Opportunity` for **Display name**.
 
 1. Select **Save**.
+
 
 ### Task 1.2 - Primary column
 
@@ -58,6 +59,7 @@ In this lab you will create Dataverse tables and columns.
 1. Select **Update**.
 
 1. Select **Create**.
+
 
 ### Task 1.3 - Add columns
 
@@ -91,7 +93,7 @@ In this lab you will create Dataverse tables and columns.
    1. Data type: **Single line of text**
    1. Required: **Optional**
 
-1. Expand **Advanced option** and enter `200` for **Maximum character count**.
+1. Expand **Advanced options** and enter `200` for **Maximum character count**.
 
 1. Select **Save**.
 
@@ -121,12 +123,13 @@ In this lab you will create Dataverse tables and columns.
 
 1. Select **Save**.
 
+
 ### Task 1.4 - Add choice column
 
 1. In the **Opportunity columns and data** pane, select **+** and in the **New column** pane, enter or select the following values:
 
    1. Display name: `Status`
-   1. Data type: **Choice**
+   1. Data type: **Choice** > **Choice**
    1. Required: **Optional**
 
 1. Select **No** for **Sync with global choice?**
@@ -143,11 +146,12 @@ In this lab you will create Dataverse tables and columns.
 
 1. Select **Save**.
 
+
 ## Exercise 2 – Create relationship
 
 ### Task 2.1 - Create a lookup column
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Dev One** environment.
 
@@ -170,7 +174,7 @@ In this lab you will create Dataverse tables and columns.
 
 ### Task 3.1 - Add opportunity records
 
-1. Navigate to the Power Apps Maker portal <https://make.powerapps.com>.
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com`
 
 1. Make sure you are in the **Dev One** environment.
 
@@ -186,10 +190,10 @@ In this lab you will create Dataverse tables and columns.
    1. Owner Name: `MOD Administrator`
    1. Customer: `Adventure Works`
    1. Estimated Close Date: **Pick a date in the previous month**
-   1. Status: **Closed**
    1. Amount: `10,000`
+   1. Status: **Closed**
 
-1. Select **Inset row below** and enter or select the following values:
+1. Select **Insert row below** and enter or select the following values:
 
    1. Opportunity Subject: `Key customer`
    1. Owner Name: `MOD Administrator`
@@ -198,24 +202,24 @@ In this lab you will create Dataverse tables and columns.
    1. Status: **New**
    1. Amount: `50,000`
 
-1. Select **Inset row below** and enter or select the following values:
+1. Select **Insert row below** and enter or select the following values:
 
    1. Opportunity Subject: `New customer`
    1. Owner Name: `MOD Administrator`
    1. Customer: `Coho Winery`
    1. Estimated Close Date: **Pick a future date in the next month**
-   1. Status: **New**
    1. Amount: `25,000`
+   1. Status: **New**
 
-1. Select **Inset row below** and enter or select the following values:
+1. Select **Insert row below** and enter or select the following values:
 
    1. Opportunity Subject: `Repeat customer`
    1. Owner Name: `MOD Administrator`
    1. Customer: `Fourth Coffee`
    1. Estimated Close Date: **Pick a future date in the next month**
-   1. Status: **Open**
    1. Amount: `15,000`
+   1. Status: **Open**
 
     ![Screenshot of edit data pane.](../media/edit-data.png)
 
-1. Close the edit data tab.
+1. Close the tab.
