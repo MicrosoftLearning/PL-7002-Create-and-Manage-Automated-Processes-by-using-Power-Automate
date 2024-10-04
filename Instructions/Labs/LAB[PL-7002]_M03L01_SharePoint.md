@@ -109,7 +109,7 @@ In this lab you will create a SharePoint site and list.
 
     ![Screenshot of the SharePoint Tasks list.](../media/tasks-sharepoint-list.png)
 
-1. Select **+ New** and enter the following data and select **Save**:
+1. Select **+ Add new item** and enter the following data and select **Save**:
 
    1. Title=`Contact Jon`
    1. Description=`Call or email`
@@ -117,7 +117,7 @@ In this lab you will create a SharePoint site and list.
    1. Deadline=**Yesterday**
    1. Approval Status=**Declined**
 
-1. Select **+ New** and enter the following data and select **Save**:
+1. Select **+ Add new item** and enter the following data and select **Save**:
 
    1. Title=`Create Quote`
    1. Description=`No discount`
@@ -125,7 +125,7 @@ In this lab you will create a SharePoint site and list.
    1. Deadline=**Today**
    1. Approval Status=**Approved**
 
-1. Select **+ New** and enter the following data and select **Save**:
+1. Select **+ Add new item** and enter the following data and select **Save**:
 
    1. Title=`Visit Jim`
    1. Description=`First visit`
