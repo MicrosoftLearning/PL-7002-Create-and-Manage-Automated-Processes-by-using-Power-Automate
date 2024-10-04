@@ -82,19 +82,11 @@ In this lab you will create cloud flows.
 
     ![Screenshot of flow run detail.](../media/flow-run-collapsed.png)
 
-1. Select the **Condition** step to expand the flow steps.
-
-    ![Screenshot of flow run steps.](../media/flow-run-steps.png)
-
 1. Select the **Get forecast for today** step with the green tick.
 
     ![Screenshot of flow run step output.](../media/flow-run-step.png)
 
 1. Select **Edit**.
-
-1. Select the **Condition** step to expand the flow steps.
-
-1. Select **Expand condition**.
 
 1. Select one of the **Send a push notification** steps.
 
@@ -124,7 +116,7 @@ In this lab you will create cloud flows.
 
 1. Select the **Home** tab from the left-side menu.
 
-1. Under **Let's automate something. What should it do?** enter `Every day send me an email with the daily summary from MSN Weather`
+1. Under **Create your automation with Copilot** enter `Every day send me an email with the daily summary from MSN Weather`
 
     ![Screenshot of copilot prompt.](../media/copilot-prompt.png)
 
@@ -151,7 +143,9 @@ In this lab you will create cloud flows.
 
 1. Select **Save**.
 
-1. To test the flow, select **Test**, select **Manually**, and then select **Run flow**. Select **Done**.
+1. To test the flow, select **Test**, select **Manually**, and then select **Test**. 
+
+1. Select **Run flow** and then select **Done**.
 
 1. Select the **<-** Back button from the top left of the command bar.
 
@@ -198,6 +192,8 @@ In this lab you will create cloud flows.
 
 1. Select the **+** icon under the trigger step and select **Add an action**.
 
+1. If prompted, select **Allow** for **See text and images copied to clipboard**.
+
 1. Enter `notification` in search.
 
     ![Screenshot of action search.](../media/search-action.png)
@@ -238,6 +234,8 @@ In this lab you will create cloud flows.
 1. Select **... More** from the left-side menu.
 
     ![Screenshot of more options for Power Automate portal.](../media/power-automate-menu.png)
+
+1. Select **Discover all** and search for **Cloud flow activity** under Monitor section.
 
 1. Select the pin icon for **Cloud flow activity**.
 
