@@ -35,30 +35,22 @@ In this lab you will create Dataverse tables and columns.
 
 1. In the left navigation pane, select **Tables**.
 
-1. Select **+ New table**, and select **Add columns and data**.
+1. Select **+ New table**, and select **Set advanced properties**.
 
     ![Screenshot of creating a new table in Dataverse.](../media/create-new-table-dataverse.png)
 
-1. Select **Edit table properties**.
-
-    ![Screenshot of new table name.](../media/table-name.png)
-
 1. Enter `Opportunity` for **Display name**.
-
-1. Select **Save**.
 
 
 ### Task 1.2 - Primary column
 
-1. Select the drop-down caret next to **New column** and select **Edit column**.
+1. Select **Primary column** tab next to **Properties** tab.
 
     ![Screenshot of primary column.](../media/primary-column.png)
 
 1. Enter `Opportunity Subject` for **Display name**.
 
-1. Select **Update**.
-
-1. Select **Create**.
+1. Select **Save**.
 
 
 ### Task 1.3 - Add columns
@@ -86,6 +78,8 @@ In this lab you will create Dataverse tables and columns.
    1. Required: **Business required**
 
 1. Select **Save**.
+
+1. In the **Opportunity columns and data** pane, select **+** to add a new column.
 
 1. In the **New column** pane, enter or select the following values:
 
