@@ -82,7 +82,7 @@ In this lab you will create a scheduled flow.
 
 1. Select **Built-in** for **Runtime**.
 
-1. Select **Select** under **Data Operations**.
+1. Select **Select** under **Data Operation**.
 
 1. Select **From** field and select the Dynamic content icon.
 
