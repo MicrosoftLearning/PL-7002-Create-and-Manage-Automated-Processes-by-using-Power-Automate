@@ -39,7 +39,7 @@ In this lab you will create an approval flow.
 
 1. Enter `Task approval` for **Flow name**.
 
-1. Enter `SharePoint` in search.
+1. Enter `SharePoint` in Search all triggers.
 
 1. Select **When an item is created**.
 
@@ -119,7 +119,7 @@ In this lab you will create an approval flow.
 
 1. Enter `update item` in search.
 
-1. Select **Update Item** under **SharePoint**.
+1. Select **Update item** under **SharePoint**.
 
 1. Select **Update item** step name and enter `Set task to approved`
 
@@ -143,7 +143,7 @@ In this lab you will create an approval flow.
 
 1. Enter `update item` in search.
 
-1. Select **Update Item** under **SharePoint**.
+1. Select **Update item** under **SharePoint**.
 
 1. Select **Update item 1** step name and enter `Set task to declined`.
 
@@ -174,7 +174,7 @@ In this lab you will create an approval flow.
 
 1. Navigate to the SharePoint site and select the **Tasks** list.
 
-1. Select **+ New** and enter the following data and select **Save**:
+1. Select **+ Add new item** and enter the following data and select **Save**:
 
    1. Title=`Approval test`
    1. Description=`Test`

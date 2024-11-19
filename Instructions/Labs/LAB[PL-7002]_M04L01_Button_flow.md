@@ -70,7 +70,7 @@ In this lab you will create a button flow.
 
 1. Select **Number**
 
-1. Enter `Potential Sale` in **Input**.
+1. Enter `Potential Sale` in **Number**.
 
     ![Screenshot of user input.](../media/user-input.png)
 
@@ -83,7 +83,7 @@ In this lab you will create a button flow.
 
 1. Select **Add a new row** under **Microsoft Dataverse**.
 
-1. Select **Sign In**
+1. Select **Sign in**
 
 1. Use your tenant credentials.
 
@@ -91,25 +91,25 @@ In this lab you will create a button flow.
 
 1. Select **Opportunities** for **Table Name**.
 
-1. Enter `/` into the **Customer** field and select **Insert Dynamic Content**, select **See More**.
+1. Enter `/` into the **Customer** field and select **Insert dynamic content**, select **See more**.
 
 1. Select **Customer Name**.
-
-1. Select **Opportunity Subject** field and enter `New opportunity`
 
 1. Select **Owner Name** field and enter `MOD Administrator`
 
 1. Select **Show all**.
 
-1. Enter `/` into the **Amount** field and select **Insert Dynamic Content**.
+1. Select **Opportunity Subject** field and enter `New opportunity`
+
+1. Enter `/` into the **Amount** field and select **Insert dynamic content**.
 
 1. Select **Potential Sale**.
 
-1. Select **Notes** field and select the Dynamic content icon and select **See More**.
+1. Select **Notes** field and select the Dynamic content icon and select **See more**.
 
 1. Select **Comments**.
 
-1. Enter `/` into the **Estimated Close Date** field and select **Insert Expression**.
+1. Enter `/` into the **Estimated Close Date** field and select **Insert expression**.
 
 1. Enter the expression `addDays(utcNow(),30)` and select **Add**.
 

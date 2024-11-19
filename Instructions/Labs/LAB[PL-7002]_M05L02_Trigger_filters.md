@@ -107,7 +107,7 @@ In this lab you will filter on an update trigger.
 
 1. Select **Opportunity Subject** from **Opportunity changed**.
 
-1. Select **Body** field and select the Dynamic content icon and select **See More**.
+1. Select **Body** field and select the Dynamic content icon and select **See more**.
 
 1. Select **Status** from **Opportunity changed**.
 

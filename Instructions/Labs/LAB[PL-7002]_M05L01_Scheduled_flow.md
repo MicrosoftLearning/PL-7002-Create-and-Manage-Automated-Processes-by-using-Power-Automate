@@ -82,7 +82,7 @@ In this lab you will create a scheduled flow.
 
 1. Select **Built-in** for **Runtime**.
 
-1. Select **Select** under **Data Operations**.
+1. Select **Select** under **Data Operation**.
 
 1. Select **From** field and select the Dynamic content icon.
 
@@ -102,7 +102,7 @@ In this lab you will create a scheduled flow.
 
 1. Select **Enter key** field and enter `Due`
 
-1. Select **Enter value** field, select the Dynamic content icon and select **See More**.
+1. Select **Enter value** field, select the Dynamic content icon and select **See more**.
 
 1. Select **Deadline** from **New tasks**.
 
