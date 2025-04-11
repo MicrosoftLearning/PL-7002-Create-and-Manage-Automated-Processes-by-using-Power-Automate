@@ -124,7 +124,7 @@ In this lab you will create cloud flows.
 
     ![Screenshot of suggested flow.](../media/copilot-suggestion.png)
 
-1. Select **Next**.
+1. Select **Keep it and continue**.
 
 1. Select **Create flow**.
 
