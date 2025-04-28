@@ -51,7 +51,7 @@ In this lab you will create a SharePoint site and list.
 
     ![Screenshot of new SharePoint list.](../media/new-sharepoint-list.png)
 
-1. Select **Blank list**
+1. Select **List** under **Create from blank**.
 
 1. Enter `Tasks` for **Name**  and select **Create**.
 
@@ -60,7 +60,7 @@ In this lab you will create a SharePoint site and list.
 1. In the **Create a column** pane, enter or select the following values:
 
    1. Name: `Description`
-   1. Data type: **Multiple lines of text**
+   1. Type: **Multiple lines of text**
 
 1. Select **Save**.
 
@@ -69,7 +69,7 @@ In this lab you will create a SharePoint site and list.
 1. In the **Create a column** pane, enter or select the following values:
 
    1. Name: `Owner Name`
-   1. Data type: **Single line of text**
+   1. Type: **Single line of text**
 
 1. Select **Save**.
 
@@ -78,7 +78,7 @@ In this lab you will create a SharePoint site and list.
 1. In the **Create a column** pane, enter or select the following values:
 
    1. Name: `Deadline`
-   1. Data type: **Date and time**
+   1. Type: **Date and time**
 
 1. Select **Save**.
 
@@ -87,7 +87,7 @@ In this lab you will create a SharePoint site and list.
 1. In the **Create a column** pane, enter or select the following values:
 
    1. Name: `Approval Status`
-   1. Data type: **Choice**
+   1. Type: **Choice**
    1. Choice 1=`New`
    1. Choice 2=`Approved`
    1. Choice 3=`Declined`
