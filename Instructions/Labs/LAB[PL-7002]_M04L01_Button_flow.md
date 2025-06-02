@@ -111,7 +111,7 @@ In this lab you will create a button flow.
 
 1. Enter `/` into the **Estimated Close Date** field and select **Insert expression**.
 
-1. Enter the expression `addDays(utcNow(),30)` and select **Add**.
+1. Enter the expression `utcNow()` and select **Add**.
 
     ![Screenshot of new opportunity action.](../media/new-opportunity-action.png)
 
