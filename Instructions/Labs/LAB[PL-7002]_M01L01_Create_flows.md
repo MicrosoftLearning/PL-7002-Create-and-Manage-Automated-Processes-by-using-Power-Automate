@@ -8,15 +8,14 @@ lab:
 
 In this lab you will create cloud flows.
 
-## What you will learn
-
-- How to create Power Automate cloud flows from a template and with CoPilot
+## What you will learnp
+- How to create Power Automate cloud flows from a template and with Copilot
 - How to create a Power Automate cloud flow from blank and add actions
 
 ## High-level lab steps
 
 - Create a cloud flow from a template
-- Create a cloud flow with CoPilot
+- Create a cloud flow with Copilot
 - Create a cloud flow
 - Monitor cloud flow activity
   
