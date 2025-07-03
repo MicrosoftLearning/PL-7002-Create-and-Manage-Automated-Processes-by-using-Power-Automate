@@ -105,7 +105,7 @@ In this lab you will create cloud flows.
 1. Select the **<-** Back button from the top left of the command bar.
 
 
-## Exercise 2 – Create a cloud flow with CoPilot
+## Exercise 2 – Create a cloud flow with Copilot
 
 ### Task 2.1 - Enter a prompt
 
