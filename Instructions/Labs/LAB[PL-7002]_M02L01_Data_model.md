@@ -178,7 +178,7 @@ In this lab you will create Dataverse tables and columns.
 
 1. In the **Opportunity columns and data** pane, select the drop-down caret next to **Edit** and select **Edit in new tab**.
 
-1. Enter or select the following values:
+1. Select **+ New row** and enter or select the following values:
 
    1. Opportunity Subject: `100 Widgets`
    1. Owner Name: `MOD Administrator`
