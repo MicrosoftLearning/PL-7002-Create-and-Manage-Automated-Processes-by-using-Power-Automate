@@ -43,3 +43,37 @@ In this exercise, you will verify that you can access Power Apps.
 1. At the top right of the screen, verify that the **Environment** is set to **Dev One**. This is where you will be working for the entirety of this lab. If it is not, select the **Dev One** environment.
 
     ![Environment selector.](../media/select-dev-one-environment.png)
+
+### Task 1.2 – Update browser
+
+Applying the latest updates to the browser prevents issues in the next lab when building apps.
+
+1. Open **Microsoft Edge** browser .
+
+1. Select the **Commands (...)** in the top right of the browser, select **Help and feedback**, and select **About Microsoft Edge**.
+
+1. Apply updates and restart the browser if necessary.
+
+## Exercise 2 – Microsoft Teams
+
+In this exercise, you will verify that you can access a team in Microsoft Teams.
+
+### Task 2.1 – Sign in to Microsoft Teams
+
+1. Verify that you have your **Microsoft 365 credentials** from the Authorized Lab Host available. The credentials will be in the **Resources** tab.
+
+1. In a new browser tab, navigate to `https://teams.microsoft.com`
+
+1. If prompted to Get to know Teams, select **Get Started** and close the popup window.
+
+### Task 2.2 – Create a team
+
+1. If there are no Teams displayed, select **Create team** in the top-right of the page.
+
+1. Enter `Contoso` in the **Team name** field.
+
+1. Enter `General` in the **First channel name** field.
+
+1. Select **Create**.
+
+1. Select **Skip**.
