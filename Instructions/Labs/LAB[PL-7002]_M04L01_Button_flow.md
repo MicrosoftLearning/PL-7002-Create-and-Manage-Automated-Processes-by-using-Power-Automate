@@ -83,6 +83,8 @@ In this lab you will create a button flow.
 
 1. Select **Add a new row** under **Microsoft Dataverse**.
 
+1. Enter `Dataverse` for **Connection name**.
+
 1. Select **Sign in**
 
 1. Use your tenant credentials.
