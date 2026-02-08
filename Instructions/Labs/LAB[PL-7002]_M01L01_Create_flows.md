@@ -64,9 +64,12 @@ In this lab you will create cloud flows.
 
 1. Select **Run**.
 
-1. If prompted, select **Allow** for **Know your location**
+1. If prompted, select **Allow** in the **Know your location** popup.
 
     ![Screenshot of location popup.](../media/allow-location.png)
+
+   > [!NOTE]
+   > If the error *Location services must be enabled to run this flow* is shown, in the machine's **Settings -> Privacy & security -> Location**, enable **Location services** and **Enable Let apps access your location**.
 
 1. Select **Continue**.
 
@@ -153,6 +156,8 @@ In this lab you will create cloud flows.
     ![Screenshot of Get forecast for today action.](../media/msn-connection.png)
 
 1. If an error is displayed for the *shared_office365users* connection, select the icon in the bottom-right of the **Get my profile** action, select **Change connection reference**, select **Add new**, select **Sign in**, and select **Save**.
+
+1. If an error is displayed for the *shared_office365* connection, select the icon in the bottom-right of the **Send an email** action, select **Change connection reference**, select **Add new**, select **Sign in**, and select **Save**.
 
 1. If still have errors with the connections, select the **<-** Back button from the top left of the command bar and restart this exercise.
 
