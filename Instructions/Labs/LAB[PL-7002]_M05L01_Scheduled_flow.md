@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 6: Scheduled flow'
-    module: 'Module 5: Power Automate’s deep integration across multiple data sources'
+  title: 'Lab 6: Scheduled flow'
+  module: 'Module 5: Power Automate’s deep integration across multiple data sources'
+  description: In this lab you will create a scheduled flow.
+  duration: 148 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 6 – Scheduled flow
