@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 4: Approval flow'
-    module: 'Module 3: Build approval flows with Power Automate'
+  title: 'Lab 4: Approval flow'
+  module: 'Module 3: Build approval flows with Power Automate'
+  description: In this lab you will create an approval flow.
+  duration: 156 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 4 – Approval flow
