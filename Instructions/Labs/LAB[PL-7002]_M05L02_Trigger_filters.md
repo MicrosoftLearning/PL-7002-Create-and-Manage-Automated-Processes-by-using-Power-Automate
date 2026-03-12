@@ -1,7 +1,11 @@
 ---
 lab:
-    title: 'Lab 7: Trigger filters'
-    module: 'Module 5: Power Automate’s deep integration across multiple data sources'
+  title: 'Lab 7: Trigger filters'
+  module: 'Module 5: Power Automate’s deep integration across multiple data sources'
+  description: In this lab you will filter on an update trigger.
+  duration: 25 minutes
+  level: 100
+  islab: true
 ---
 
 # Practice Lab 7 – Trigger filters
