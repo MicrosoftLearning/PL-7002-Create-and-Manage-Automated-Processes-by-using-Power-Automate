@@ -3,7 +3,7 @@ lab:
   title: 'Lab 1: Create cloud flows'
   module: 'Module 1: Get started with Power Automate'
   description: In this lab you will create cloud flows.
-  duration: 166 minutes
+  duration: 30 minutes
   level: 100
   islab: true
 ---
