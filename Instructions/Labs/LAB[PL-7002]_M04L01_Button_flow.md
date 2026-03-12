@@ -3,7 +3,7 @@ lab:
   title: 'Lab 5: Button flow'
   module: 'Module 4: Build flows to manage user information'
   description: In this lab you will create a button flow.
-  duration: 140 minutes
+  duration: 30 minutes
   level: 100
   islab: true
 ---
