@@ -95,7 +95,7 @@ In this lab you will create an approval flow.
 
 1. Enter `/` into the **Item Link** field and select **Insert dynamic content**.
 
-1. Select **See More**, select **Link to item**.
+1. Select **See More**, and then select **Link to item**.
 
     ![Screenshot of Approval action step.](../media/start-approval-action.png)
 
