@@ -77,9 +77,9 @@ In this lab you will create a button flow.
 
 ### Task 1.3 - Add create opportunity action
 
-1. Select the **+** icon under the trigger step and select **Add an action**.
+1. Select the **+** icon under the trigger step to add an action.
 
-1. Enter `add row` in search.
+1. Enter `add row` in the search box.
 
 1. Select **Add a new row** under **Microsoft Dataverse**.
 
