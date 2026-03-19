@@ -67,9 +67,9 @@ In this lab you will create an approval flow.
 
 ### Task 1.3 - Add approval action
 
-1. Select the **+** icon under the trigger step and select **Add an action**.
+1. Select the **+** icon under the trigger step to add an action.
 
-1. Enter `approval` in search.
+1. Enter `approval` in the search box.
 
     ![Screenshot of approvals search.](../media/search-approval.png)
 
