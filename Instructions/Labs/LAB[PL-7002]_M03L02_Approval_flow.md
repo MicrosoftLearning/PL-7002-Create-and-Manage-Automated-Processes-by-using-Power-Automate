@@ -199,6 +199,8 @@ In this lab you will create an approval flow.
 
 1. Select the date and time in the flow run history.
 
+1. Open a new browser tab and navigate to the Power Automate portal `https://make.powerautomate.com`
+
 1. Select the **Approvals** tab from the left navigation menu.
 
     ![Screenshot of approvals in the portal.](../media/approvals.png)
