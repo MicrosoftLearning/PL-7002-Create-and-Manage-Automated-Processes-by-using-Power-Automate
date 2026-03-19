@@ -54,6 +54,10 @@ In this lab you will create an approval flow.
 1. Select the **When an item is created** step.
 
 1. Select the **When an item is created** step name and enter `New task`.
+> [!NOTE]
+> If you encounter an issue editing the trigger name, use **Copilot** to rename it.  
+> Select **Copilot**, and in the Copilot chat enter the following prompt:
+> `Rename the trigger to New task`.
 
 1. Select the **Power Automate SharePoint site** created in the previous lab. If the site is not listed, select **Enter custom value** and paste the URL of the Power Automate SharePoint site
 
