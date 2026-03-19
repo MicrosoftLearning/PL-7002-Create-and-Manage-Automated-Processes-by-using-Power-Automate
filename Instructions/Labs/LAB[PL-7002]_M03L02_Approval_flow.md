@@ -101,9 +101,9 @@ In this lab you will create an approval flow.
 
 ### Task 1.4 - Add condition
 
-1. Select the **+** icon under the approval step and select **Add an action**.
+1. Select the **+** icon under the approval trigger step to add an action.
 
-1. Enter `condition` in search.
+1. Enter `condition` in the search box.
 
 1. Select **Condition** under **Control**.
 
@@ -121,9 +121,9 @@ In this lab you will create an approval flow.
 
 ### Task 1.5 - Update status actions
 
-1. Select the **+** icon under **True** and select **Add an action**.
+1. Select the **+** icon under **True** to add an action.
 
-1. Enter `update item` in search.
+1. Enter `update item` in the search box.
 
 1. Select **Update item** under **SharePoint**.
 
@@ -145,9 +145,9 @@ In this lab you will create an approval flow.
 
 1. Select **Approved** for **Approval Status Value**.
 
-1. Select the **+** icon under **False** and select **Add an action**.
+1. Select the **+** icon under **False** to add an action.
 
-1. Enter `update item` in search.
+1. Enter `update item` in the search box.
 
 1. Select **Update item** under **SharePoint**.
 
