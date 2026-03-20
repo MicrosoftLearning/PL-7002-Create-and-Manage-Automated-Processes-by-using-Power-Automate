@@ -54,6 +54,10 @@ In this lab you will create a scheduled flow.
 1. Select the **Recurrence** step.
 
 1. Select the **Recurrence** step name and enter `Daily`
+> [!NOTE]
+> If you encounter an issue editing the trigger name, use **Copilot** to rename it.  
+> Select **Copilot**, and in the Copilot chat enter the following prompt:
+> `Rename the trigger to Daily`.
 
 ### Task 1.3 - Query new tasks
 
