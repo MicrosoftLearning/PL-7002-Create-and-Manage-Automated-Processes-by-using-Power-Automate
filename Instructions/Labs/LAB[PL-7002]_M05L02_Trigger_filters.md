@@ -78,7 +78,11 @@ In this lab you will filter on an update trigger.
 
 1. Select the **When a row is added, modified, or deleted** step.
 
-1. Select the **When a row is added, modified, or deleted** step name and enter `Opportunity changed`
+1. Select the **When a row is added, modified, or deleted** step name and enter `Opportunity changed`.
+> [!NOTE]
+> If you encounter an issue editing the trigger name, use **Copilot** to rename it.  
+> Select **Copilot**, and in the Copilot chat enter the following prompt:
+> `Rename the trigger to Opportunity changed`.
 
 1. Select **Modified** for **Change Type**.
 
