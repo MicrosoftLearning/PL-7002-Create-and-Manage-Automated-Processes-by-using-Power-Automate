@@ -128,7 +128,7 @@ In this lab you will filter on an update trigger.
 
 1. Select the **Opportunity changed** step.
 
-1. Select the **Filter Rows** field and enter `cr977_status eq 3` using the **Logical name** from the previous exercise.
+1. Select the **Filter Rows** field and enter `cr977_opportunitystatus eq 3` using the **Logical name** from the previous exercise.
 
     ![Screenshot of trigger filter.](../media/trigger-filter.png)
 
