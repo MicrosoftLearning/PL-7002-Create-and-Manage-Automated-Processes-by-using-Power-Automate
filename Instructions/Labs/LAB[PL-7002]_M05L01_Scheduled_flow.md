@@ -61,9 +61,9 @@ In this lab you will create a scheduled flow.
 
 ### Task 1.3 - Query new tasks
 
-1. Select the **+** icon under the trigger step and select **Add an action**.
+1. Select the **+** icon under the trigger step to add an action.
 
-1. Enter `list items` in search.
+1. Enter `list items` in the search box.
 
 1. Select **Get items** under **SharePoint**.
 
@@ -81,9 +81,9 @@ In this lab you will create a scheduled flow.
 
 ### Task 1.4 - Select columns
 
-1. Select the **+** icon under the **New tasks** step and select **Add an action**.
+1. Select the **+** icon under the **New tasks** to add an action.
 
-1. Enter `Select` in search.
+1. Enter `Select` in the search box.
 
 1. Select **Built-in**.
 
@@ -121,9 +121,9 @@ In this lab you will create a scheduled flow.
 
 ### Task 1.5 - Create table
 
-1. Select the **+** icon under the Select step and select **Add an action**.
+1. Select the **+** icon under the **Select** step to add an action.
 
-1. Enter `create html` in search.
+1. Enter `create html` in the search box.
 
 1. Select **Built-in**.
 
@@ -139,9 +139,9 @@ In this lab you will create a scheduled flow.
 
 ### Task 1.6 - Send email
 
-1. Select the **+** icon under the **Format as HTML table** step and select **Add an action**.
+1. Select the **+** icon under the **Format as HTML table** step to add an action.
 
-1. Enter `email` in search.
+1. Enter `email` in the search box.
 
 1. Select **Send an email (V2)** under **Office 365 Outlook**.
 
