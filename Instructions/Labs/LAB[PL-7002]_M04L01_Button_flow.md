@@ -154,3 +154,5 @@ In this lab you will create a button flow.
 1. In the left navigation pane, select **Tables**.
 
 1. Select **Opportunity**.
+
+1. Verify that a **new opportunity record** was created.
