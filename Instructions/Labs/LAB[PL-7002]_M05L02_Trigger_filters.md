@@ -94,9 +94,9 @@ In this lab you will filter on an update trigger.
 
 ### Task 2.3 - Send email
 
-1. Select the **+** icon under the trigger step and select **Add an action**.
+1. Select the **+** icon under the trigger step to add an action.
 
-1. Enter `email` in search.
+1. Enter `email` in the search box.
 
 1. Select **Send an email (V2)** under **Office 365 Outlook**.
 
