@@ -54,6 +54,10 @@ In this lab you will create an approval flow.
 1. Select the **When an item is created** step.
 
 1. Select the **When an item is created** step name and enter `New task`.
+> [!NOTE]
+> If you encounter an issue editing the trigger name, use **Copilot** to rename it.  
+> Select **Copilot**, and in the Copilot chat enter the following prompt:
+> `Rename the trigger to New task`.
 
 1. Select the **Power Automate SharePoint site** created in the previous lab. If the site is not listed, select **Enter custom value** and paste the URL of the Power Automate SharePoint site
 
@@ -63,9 +67,9 @@ In this lab you will create an approval flow.
 
 ### Task 1.3 - Add approval action
 
-1. Select the **+** icon under the trigger step and select **Add an action**.
+1. Select the **+** icon under the trigger step to add an action.
 
-1. Enter `approval` in search.
+1. Enter `approval` in the search box.
 
     ![Screenshot of approvals search.](../media/search-approval.png)
 
@@ -91,15 +95,15 @@ In this lab you will create an approval flow.
 
 1. Enter `/` into the **Item Link** field and select **Insert dynamic content**.
 
-1. Select **See More**, select **Link to item**.
+1. Select **See More**, and then select **Link to item**.
 
     ![Screenshot of Approval action step.](../media/start-approval-action.png)
 
 ### Task 1.4 - Add condition
 
-1. Select the **+** icon under the approval step and select **Add an action**.
+1. Select the **+** icon under the approval trigger step to add an action.
 
-1. Enter `condition` in search.
+1. Enter `condition` in the search box.
 
 1. Select **Condition** under **Control**.
 
@@ -117,9 +121,9 @@ In this lab you will create an approval flow.
 
 ### Task 1.5 - Update status actions
 
-1. Select the **+** icon under **True** and select **Add an action**.
+1. Select the **+** icon under **True** to add an action.
 
-1. Enter `update item` in search.
+1. Enter `update item` in the search box.
 
 1. Select **Update item** under **SharePoint**.
 
@@ -141,9 +145,9 @@ In this lab you will create an approval flow.
 
 1. Select **Approved** for **Approval Status Value**.
 
-1. Select the **+** icon under **False** and select **Add an action**.
+1. Select the **+** icon under **False** to add an action.
 
-1. Enter `update item` in search.
+1. Enter `update item` in the search box.
 
 1. Select **Update item** under **SharePoint**.
 
@@ -194,6 +198,8 @@ In this lab you will create an approval flow.
 1. Select **Task approval**.
 
 1. Select the date and time in the flow run history.
+
+1. Open a new browser tab and navigate to the Power Automate portal `https://make.powerautomate.com`
 
 1. Select the **Approvals** tab from the left navigation menu.
 
