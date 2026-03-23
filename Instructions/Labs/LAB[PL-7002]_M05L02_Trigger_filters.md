@@ -78,7 +78,11 @@ In this lab you will filter on an update trigger.
 
 1. Select the **When a row is added, modified, or deleted** step.
 
-1. Select the **When a row is added, modified, or deleted** step name and enter `Opportunity changed`
+1. Select the **When a row is added, modified, or deleted** step name and enter `Opportunity changed`.
+> [!NOTE]
+> If you encounter an issue editing the trigger name, use **Copilot** to rename it.  
+> Select **Copilot**, and in the Copilot chat enter the following prompt:
+> `Rename the trigger to Opportunity changed`.
 
 1. Select **Modified** for **Change Type**.
 
@@ -90,9 +94,9 @@ In this lab you will filter on an update trigger.
 
 ### Task 2.3 - Send email
 
-1. Select the **+** icon under the trigger step and select **Add an action**.
+1. Select the **+** icon under the trigger step to add an action.
 
-1. Enter `email` in search.
+1. Enter `email` in the search box.
 
 1. Select **Send an email (V2)** under **Office 365 Outlook**.
 
@@ -124,7 +128,7 @@ In this lab you will filter on an update trigger.
 
 1. Select the **Opportunity changed** step.
 
-1. Select the **Filter Rows** field and enter `cr977_status eq 3` using the **Logical name** from the previous exercise.
+1. Select the **Filter Rows** field and enter `cr977_opportunitystatus eq 3` using the **Logical name** from the previous exercise.
 
     ![Screenshot of trigger filter.](../media/trigger-filter.png)
 
@@ -132,4 +136,26 @@ In this lab you will filter on an update trigger.
 
 1. Select **Save**.
 
-1. Select the **<-** **Back** button from the top left of the command bar.
+## Exercise 3 – Test the automated flow
+
+### Task 3.1 - Run the automated flow manually
+
+1. Select **Test**
+
+1. Select **Manually**.
+
+1. Select **Test**.
+
+1. Navigate to the Power Apps Maker portal `https://make.powerapps.com` in a new browser tab.
+
+1. Make sure you are in the **Dev One** environment.
+
+1. In the left navigation pane, select **Tables**.
+
+1. Select **Opportunity**.
+
+1. Under **Opportunity columns and data**, choose any record and change the **Opportunity status** to **Closed**.
+
+1. In the Power Apps Maker portal, select the **App launcher** in the top left of the browser window and then select **Outlook**.
+
+1. Verify that an email notification was received.
