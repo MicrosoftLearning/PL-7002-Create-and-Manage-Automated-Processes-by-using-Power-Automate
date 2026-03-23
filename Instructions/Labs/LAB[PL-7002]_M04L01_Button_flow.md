@@ -51,8 +51,6 @@ In this lab you will create a button flow.
 
 1. Select the **Manually trigger a flow** step.
 
-1. Select the **Manually trigger a flow** step name and enter `Button triggered`
-
 1. Select **Add an input**.
 
 1. Select **Text**.
@@ -79,11 +77,13 @@ In this lab you will create a button flow.
 
 ### Task 1.3 - Add create opportunity action
 
-1. Select the **+** icon under the trigger step and select **Add an action**.
+1. Select the **+** icon under the trigger step to add an action.
 
-1. Enter `add row` in search.
+1. Enter `add row` in the search box.
 
 1. Select **Add a new row** under **Microsoft Dataverse**.
+
+1. Select **Change connection reference**.
 
 1. Enter `Dataverse` for **Connection name**.
 
@@ -154,3 +154,5 @@ In this lab you will create a button flow.
 1. In the left navigation pane, select **Tables**.
 
 1. Select **Opportunity**.
+
+1. Verify that a **new opportunity record** was created.
