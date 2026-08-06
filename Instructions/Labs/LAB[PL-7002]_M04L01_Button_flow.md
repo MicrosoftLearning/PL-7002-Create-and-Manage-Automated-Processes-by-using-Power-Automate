@@ -37,7 +37,7 @@ In this lab you will create a button flow.
 
 1. Make sure you are in the **Dev One** environment.
 
-1. Select the **+ Create** tab from the left-side menu.
+1. Select **+ Create** from the left-side menu.
 
 1. Select **Instant cloud flow**.
 
@@ -49,49 +49,49 @@ In this lab you will create a button flow.
 
 ### Task 1.2 - Add user input
 
-1. Select the **Manually trigger a flow** step.
+1. Select the **Manually trigger a flow** trigger.
 
-1. Select **Add an input**.
+1. Select **+ Add an input**.
 
 1. Select **Text**.
 
-1. Enter `Customer Name` in **Input**.
+1. Enter `Customer Name` for **Input**.
 
-1. Enter `Please enter the customer name` in **Please enter your input**.
+1. Enter `Please enter the customer name` for **Please enter your input**.
 
-1. Select **Add an input**.
+1. Select **+ Add an input**.
 
 1. Select **Text**
 
-1. Enter `Comments` in **Input**.
+1. Enter `Comments` for **Input**.
 
-1. Enter `Any comments` in **Please enter your input**.
+1. Enter `Any comments` for **Please enter your input**.
 
-1. Select **Add an input**.
+1. Select **+ Add an input**.
 
 1. Select **Number**
 
-1. Enter `Potential Sale` in **Number**.
+1. Enter `Potential Sale` for **Number**.
 
     ![Screenshot of user input.](../media/user-input.png)
 
 ### Task 1.3 - Add create opportunity action
 
-1. Select the **+** icon under the trigger step to add an action.
+1. Select the **+** icon below the **Manually trigger a flow** trigger to add an action.
 
 1. Enter `add row` in the search box.
 
 1. Select **Add a new row** under **Microsoft Dataverse**.
 
-1. Select **Change connection reference**.
-
 1. Enter `Dataverse` for **Connection name**.
 
-1. Select **Sign in**
+1. Make sure **Oauth** is selected for **Authentication type**.
+
+1. Select **Sign in**.
 
 1. Use your tenant credentials.
 
-1. Select **Add a new row** step name and enter `New opportunity`.
+1. Select the **Add a new row** action name and enter `New opportunity`.
 
 1. Select **Opportunities** for **Table Name**.
 
@@ -99,9 +99,9 @@ In this lab you will create a button flow.
 
 1. Select **Customer Name**.
 
-1. Select **Opportunity Subject** field and enter `New opportunity`
+1. Select the **Opportunity Subject** field and enter `New opportunity`
 
-1. Select **Owner Name** field and enter `MOD Administrator`
+1. Select the **Owner Name** field and enter `MOD Administrator`
 
 1. Select **Show all**.
 
@@ -115,7 +115,7 @@ In this lab you will create a button flow.
 
     ![Screenshot of new opportunity action.](../media/new-opportunity-action.png)
 
-1. Select **Notes** field and select the Dynamic content icon and select **See more**.
+1. Select the **Notes** field, select the Dynamic content icon, and then select **See more**.
 
 1. Select **Comments**.
 

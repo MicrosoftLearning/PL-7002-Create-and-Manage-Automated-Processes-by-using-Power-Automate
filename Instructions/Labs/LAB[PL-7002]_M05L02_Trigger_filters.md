@@ -52,7 +52,8 @@ In this lab you will filter on an update trigger.
 
 1. Copy the **Logical name** for use in the flow.
 
-   > **Note:** The prefix for your Opportunity Status column may be different.
+> [!NOTE]
+> The prefix for your Opportunity Status column may be different.
 
 ## Exercise 2 – Create automated flow
 
@@ -62,7 +63,7 @@ In this lab you will filter on an update trigger.
 
 1. Make sure you are in the **Dev One** environment.
 
-1. Select the **+ Create** tab from the left navigation menu.
+1. Select **+ Create** from the left navigation menu.
 
 1. Select **Automated cloud flow**.
 
@@ -76,15 +77,16 @@ In this lab you will filter on an update trigger.
 
 ### Task 2.2 - Configure the trigger
 
-1. Select the **When a row is added, modified, or deleted** step.
+1. Select the **When a row is added, modified, or deleted** trigger.
 
-1. Select the **When a row is added, modified, or deleted** step name and enter `Opportunity changed`.
+1. Select the **When a row is added, modified, or deleted** trigger name and enter `Opportunity changed`.
+
 > [!NOTE]
 > If you encounter an issue editing the trigger name, use **Copilot** to rename it.  
 > Select **Copilot**, and in the Copilot chat enter the following prompt:
 > `Rename the trigger to Opportunity changed`.
 
-1. Select **Modified** for **Change Type**.
+3. Select **Modified** for **Change Type**.
 
 1. Select **Opportunities** for **Table Name**.
 
@@ -94,25 +96,25 @@ In this lab you will filter on an update trigger.
 
 ### Task 2.3 - Send email
 
-1. Select the **+** icon under the trigger step to add an action.
+1. Select the **+** icon under the **Opportunity changed** trigger to add an action.
 
 1. Enter `email` in the search box.
 
 1. Select **Send an email (V2)** under **Office 365 Outlook**.
 
-1. Select **Send an email (V2)** step name and enter `Notify by email`
+1. Select **Send an email (V2)** action name and enter `Notify by email`
 
-1. Select **To** field and enter `MOD Administrator`.
+1. Select the **To** field and enter `MOD Administrator`.
 
-1. Enter your tenant user id for **To**.
+1. Select your tenant user email for **To**.
 
-1. Select **Subject** field and enter `Opportunity closed`
+1. Select the **Subject** field and enter `Opportunity closed`
 
-1. Select **Body** field and select the Dynamic content icon.
+1. Select the **Body** field and select the **Dynamic content** icon.
 
 1. Select **Opportunity Subject** from **Opportunity changed**.
 
-1. Select **Body** field and select the Dynamic content icon and select **See more**.
+1. Select the **Body** field, select the **Dynamic content** icon, and then select **See more**.
 
 1. Select **Opportunity Status** from **Opportunity changed**.
 
@@ -122,19 +124,21 @@ In this lab you will filter on an update trigger.
 
 1. Select the **Select Columns** field and enter the **Logical name** from the previous exercise, for example: `cr977_opportunitystatus`
 
-   > **Note:** The prefix for your status column will be different.
+> [!NOTE]
+> The prefix for your status column will be different.
 
 ### Task 2.5 - Row filter
 
-1. Select the **Opportunity changed** step.
+1. Select the **Opportunity changed** trigger.
 
 1. Select the **Filter Rows** field and enter `cr977_opportunitystatus eq 3` using the **Logical name** from the previous exercise.
 
     ![Screenshot of trigger filter.](../media/trigger-filter.png)
 
-    > **Note:** The prefix for your status column will be different.
+> [!NOTE]
+> The prefix for your status column will be different.
 
-1. Select **Save**.
+3. Select **Save**.
 
 ## Exercise 3 – Test the automated flow
 
@@ -158,4 +162,4 @@ In this lab you will filter on an update trigger.
 
 1. In the Power Apps Maker portal, select the **App launcher** in the top left of the browser window and then select **Outlook**.
 
-1. Verify that an email notification was received.
+1. Verify that an email notification with the subject **Opportunity closed** was received.

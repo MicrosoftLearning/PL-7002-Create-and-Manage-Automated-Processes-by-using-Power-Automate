@@ -12,7 +12,8 @@ lab:
 
 # Practice Lab 0 - Validate lab environment
 
-> **IMPORTANT:** This lab provides you with a Microsoft 365 tenant and licenses for the Power Platform applications you will be using in this course. You will only be provided with one tenant for the practice labs in this course. The settings and actions you take within this tenant do not roll-back or reset, whereas the virtual machine you are provided with does reset each time you close the lab session. Please be aware that Microsoft 365 and Power Platform are evolving all the time. The instructions in this document may be different from what you experience in your actual tenant. It is also possible to experience a delay of several minutes before the virtual machine has network connectivity to begin the labs.
+> [!IMPORTANT]
+> This lab provides you with a Microsoft 365 tenant and licenses for the Power Platform applications you will be using in this course. You will only be provided with one tenant for the practice labs in this course. The settings and actions you take within this tenant do not roll-back or reset, whereas the virtual machine you are provided with does reset each time you close the lab session. Please be aware that Microsoft 365 and Power Platform are evolving all the time. The instructions in this document may be different from what you experience in your actual tenant. It is also possible to experience a delay of several minutes before the virtual machine has network connectivity to begin the labs.
 
 ## WWL Tenants - Terms of Use
 
@@ -42,9 +43,7 @@ In this exercise, you will verify that you can access Power Apps.
 
 1. Select **Sign in**.
 
-1. Optionally, select **Yes** to stay signed in.
-
-1. Optionally, select No, thanks to sign in to Microsoft Edge.
+1. At the **Stay signed in?** prompt, optionally select **Yes** to stay signed in, or select **No** to continue without staying signed in.
 
 1. If prompted for contact information, leave the Country/region as the default value and enter `0123456789` for Phone number and select **Submit**.
 

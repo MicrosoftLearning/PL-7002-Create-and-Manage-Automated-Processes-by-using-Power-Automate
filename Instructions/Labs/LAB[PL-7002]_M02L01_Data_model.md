@@ -57,11 +57,11 @@ In this lab you will create Dataverse tables and columns.
 
 ### Task 1.3 - Add columns
 
-1. In the **Opportunity columns and data** pane, select **+** to add a new column.
+1. In the **Opportunity columns and data** section, select **+** to add a new column.
 
     ![Screenshot of data pane.](../media/data-pane.png)
 
-1. In the **New column** pane, enter or select the following values:
+1. In the **New column** pane, enter and select the following values:
 
    1. Display name: `Owner Name`
    1. Data type: **Single line of text**
@@ -71,9 +71,9 @@ In this lab you will create Dataverse tables and columns.
 
 1. Select **Save**.
 
-1. In the **Opportunity columns and data** pane, select **+** to add a new column.
+1. In the **Opportunity columns and data** section, select **+** to add a new column.
 
-1. In the **New column** pane, enter or select the following values:
+1. In the **New column** pane, enter and select the following values:
 
    1. Display name: `Customer`
    1. Data type: **Single line of text**
@@ -81,9 +81,9 @@ In this lab you will create Dataverse tables and columns.
 
 1. Select **Save**.
 
-1. In the **Opportunity columns and data** pane, select **+** to add a new column.
+1. In the **Opportunity columns and data** section, select **+** to add a new column.
 
-1. In the **New column** pane, enter or select the following values:
+1. In the **New column** pane, enter and select the following values:
 
    1. Display name: `Address`
    1. Data type: **Single line of text**
@@ -93,7 +93,7 @@ In this lab you will create Dataverse tables and columns.
 
 1. Select **Save**.
 
-1. In the **Opportunity columns and data** pane, select **+** and in the **New column** pane, enter or select the following values:
+1. In the **Opportunity columns and data** section, select **+** and in the **New column** pane, enter and select the following values:
 
    1. Display name: `Estimated Close Date`
    1. Data type: **Date and time**
@@ -102,7 +102,7 @@ In this lab you will create Dataverse tables and columns.
 
 1. Select **Save**.
 
-1. In the **Opportunity columns and data** pane, select **+** and in the **New column** pane, enter or select the following values:
+1. In the **Opportunity columns and data** section, select **+** and in the **New column** pane, enter and select the following values:
 
    1. Display name: `Amount`
    1. Data type: **Currency**
@@ -110,10 +110,10 @@ In this lab you will create Dataverse tables and columns.
 
 1. Select **Save**.
 
-1. In the **Opportunity columns and data** pane, select **+** and in the **New column** pane, enter or select the following values:
+1. In the **Opportunity columns and data** section, select **+** and in the **New column** pane, enter and select the following values:
 
    1. Display name: `Notes`
-   1. Data type: **Text** > **Multiple lines of text** > **Plain text**
+   1. Data type: **Text** → **Multiple lines of text** → **Plain text**
    1. Format: **Text**
    1. Required: **Optional**
 
@@ -121,19 +121,19 @@ In this lab you will create Dataverse tables and columns.
 
 ### Task 1.4 - Add choice column
 
-1. In the **Opportunity columns and data** pane, select **+** and in the **New column** pane, enter or select the following values:
+1. In the **Opportunity columns and data** section, select **+** and in the **New column** pane, enter and select the following values:
 
    1. Display name: `Opportunity Status`
-   1. Data type: **Choice** > **Choice**
+   1. Data type: **Choice** → **Choice**
    1. Required: **Optional**
 
 1. Select **No** for **Sync with global choice?**
 
 1. Enter `New` for **Label** and enter `1` for **Value**.
 
-1. Select **+ New choice** and enter `Open` for **Label** and enter `2` for **Value**.
+1. Select **+ New choice**, enter `Open` for **Label**, and then enter `2` for **Value**.
 
-1. Select **+ New choice** and enter `Closed` for **Label** and enter `3` for **Value**.
+1. Select **+ New choice**, enter `Closed` for **Label**, and then enter `3` for **Value**.
 
 1. Select **New** for **Default choice**.
 
@@ -153,10 +153,10 @@ In this lab you will create Dataverse tables and columns.
 
 1. Select **Opportunity**.
 
-1. In the **Opportunity columns and data** pane, select **+** and in the **New column** pane, enter or select the following values:
+1. In the **Opportunity columns and data** section, select **+** and in the **New column** pane, enter or select the following values:
 
    1. Display name: `Account`
-   1. Data type: **Lookup** > **Lookup**
+   1. Data type: **Lookup** → **Lookup**
    1. Required: **Optional**
    1. Related table: **Account**
 
@@ -176,9 +176,9 @@ In this lab you will create Dataverse tables and columns.
 
 1. Select **Opportunity**.
 
-1. In the **Opportunity columns and data** pane, select the drop-down caret next to **Edit** and select **Edit in new tab**.
+1. In the **Opportunity columns and data** section, select the drop-down caret next to **Edit** and select **Edit in new tab**.
 
-1. Select **+ New row** and enter or select the following values:
+1. Select **+ New row** → **New row**, then enter and select the following values:
 
    1. Opportunity Subject: `100 Widgets`
    1. Owner Name: `MOD Administrator`
@@ -187,7 +187,7 @@ In this lab you will create Dataverse tables and columns.
    1. Amount: `10,000`
    1. Opportunity Status: **Closed**
 
-1. Select **Insert row below** and enter or select the following values:
+1. Select **Insert row below**, then enter and select the following values:
 
    1. Opportunity Subject: `Key customer`
    1. Owner Name: `MOD Administrator`
@@ -196,7 +196,7 @@ In this lab you will create Dataverse tables and columns.
    1. Opportunity Status: **New**
    1. Amount: `50,000`
 
-1. Select **Insert row below** and enter or select the following values:
+1. Select **Insert row below**, then enter and select the following values:
 
    1. Opportunity Subject: `New customer`
    1. Owner Name: `MOD Administrator`
@@ -205,7 +205,7 @@ In this lab you will create Dataverse tables and columns.
    1. Amount: `25,000`
    1. Opportunity Status: **New**
 
-1. Select **Insert row below** and enter or select the following values:
+1. Select **Insert row below** then enter and select the following values:
 
    1. Opportunity Subject: `Repeat customer`
    1. Owner Name: `MOD Administrator`

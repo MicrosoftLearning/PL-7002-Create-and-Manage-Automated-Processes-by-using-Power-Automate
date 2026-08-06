@@ -37,7 +37,7 @@ In this lab you will create a scheduled flow.
 
 1. Make sure you are in the **Dev One** environment.
 
-1. Select the **+ Create** tab from the left navigation menu.
+1. Select **+ Create** from the left navigation menu.
 
 1. Select **Scheduled cloud flow**.
 
@@ -51,9 +51,10 @@ In this lab you will create a scheduled flow.
 
 ### Task 1.2 - Configure the trigger
 
-1. Select the **Recurrence** step.
+1. Select the **Recurrence** trigger.
 
-1. Select the **Recurrence** step name and enter `Daily`
+1. Select the **Recurrence** trigger name and enter `Daily`
+
 > [!NOTE]
 > If you encounter an issue editing the trigger name, use **Copilot** to rename it.  
 > Select **Copilot**, and in the Copilot chat enter the following prompt:
@@ -61,17 +62,17 @@ In this lab you will create a scheduled flow.
 
 ### Task 1.3 - Query new tasks
 
-1. Select the **+** icon under the trigger step to add an action.
+1. Select the **+** icon under the trigger to add an action.
 
 1. Enter `list items` in the search box.
 
 1. Select **Get items** under **SharePoint**.
 
-1. Select **Get items** step name and enter `New tasks`
+1. Select **Get items** action name and enter `New tasks`
 
-1. Select the **Power Automate SharePoint site**.
+1. Select or enter the **Power Automate SharePoint site URL** for **Site Address**.
 
-1. Select the **Tasks** list.
+1. Select **Tasks** for **List Name**.
 
 1. Next to **Advanced parameters**, select **Show all**.
 
@@ -91,37 +92,37 @@ In this lab you will create a scheduled flow.
 
 1. Select **Select** under **Data Operation**.
 
-1. Select **From** field and select the Dynamic content icon.
+1. Select the **From** field and select the **Dynamic content** icon.
 
-1. Select **body/value** from **New tasks**.
+1. Select **body/value** under **New tasks**.
 
-1. Select **Enter key** field and enter `Task`
+1. Select the **Enter key** field and enter `Task`
 
-1. Select **Enter value** field, select the Dynamic content icon.
+1. Select the **Enter value** field, then select the **Dynamic content** icon.
 
 1. Select **Title** from **New tasks**.
 
-1. Select **Enter key** field and enter `Description`
+1. Select the **Enter key** field and enter `Description`
 
-1. Select **Enter value** field, select the Dynamic content icon.
+1. Select the **Enter value** field, then select the **Dynamic content** icon.
 
 1. Select **Description** from **New tasks**.
 
-1. Select **Enter key** field and enter `Due`
+1. Select the **Enter key** field and enter `Due`
 
-1. Select **Enter value** field, select the Dynamic content icon and select **See more**.
+1. Select the **Enter value** field, select the **Dynamic content** icon, and then select **See more**.
 
 1. Select **Deadline** from **New tasks**.
 
     ![Screenshot of Select action.](../media/select-action.png)
 
-1. If the flow designer has automatically added one or more For Each loops, drag the Select step outside of the loops and delete the loop(s).
+1. If the flow designer has automatically added one or more For Each loops, drag the **Select** action outside of the loops and delete the loop(s).
 
     ![Screenshot of flow steps without loops.](../media/flow-without-loops.png)
 
 ### Task 1.5 - Create table
 
-1. Select the **+** icon under the **Select** step to add an action.
+1. Select the **+** icon under the **Select** action to add an action.
 
 1. Enter `create html` in the search box.
 
@@ -129,9 +130,9 @@ In this lab you will create a scheduled flow.
 
 1. Select **Create HTML table** under **Data Operation**.
 
-1. Select **Create HTML table** step name and enter `Format as HTML table`
+1. Select **Create HTML table** action name and enter `Format as HTML table`
 
-1. Select **From** field and select the Dynamic content icon.
+1. Select the **From** field and select the **Dynamic content** icon.
 
 1. Select **Output** from **Select**.
 
@@ -139,21 +140,21 @@ In this lab you will create a scheduled flow.
 
 ### Task 1.6 - Send email
 
-1. Select the **+** icon under the **Format as HTML table** step to add an action.
+1. Select the **+** icon under the **Format as HTML table** action to add an action.
 
 1. Enter `email` in the search box.
 
 1. Select **Send an email (V2)** under **Office 365 Outlook**.
 
-1. Select **Send an email (V2)** step name and enter `Notify by email`
+1. Select the **Send an email (V2)** action name and enter `Notify by email`
 
-1. Select **To** field and enter `MOD Administrator`.
+1. Select the **To** field and enter `MOD Administrator`.
 
-1. Select your tenant user id for **To**.
+1. Select your tenant user email for **To**.
 
-1. Select **Subject** field and enter `Daily Tasks`
+1. Select the **Subject** field and enter `Daily Tasks`
 
-1. Select **Body** field and select the Dynamic content icon.
+1. Select the **Body** field and select the **Dynamic content** icon.
 
 1. Select **Output** from **Format as HTML table**.
 

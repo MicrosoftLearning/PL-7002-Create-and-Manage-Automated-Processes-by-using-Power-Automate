@@ -31,23 +31,23 @@ In this lab you will create a SharePoint site and list.
 
 ### Task 1.1 Create a SharePoint site
 
-1. In the Power Apps maker portal, `https://make.powerapps.com`
+1. Navigate to the Power Apps maker portal `https://make.powerapps.com`
 
-1. Select the **App launcher** in the top left of the browser window and then select **SharePoint**.
+1. Select the **App launcher** in the top left of the browser window, and then select **SharePoint**.
 
     ![Screenshot of app launcher to start SharePoint.](../media/app-launcher.png)
 
-1. If the **Welcome to SharePoint Start Page** pop-up dialog is displayed, select **X** to close the dialog.
+1. If any welcome pop-up dialog is displayed, select **X** to close the dialog.
 
-1. In SharePoint, select **+ Create site**.
+1. In SharePoint, select **Build** from the left navigation pane, and then select **Site**.
 
-1. Select **Team site**, select **Standard team** template, and select **Use template**.
+1. Select **Team site**, select **Standard team** template, and then select **Use template**.
 
-1. Enter `Power Automate` for **Site name** and select **Next**.
+1. Enter `Power Automate` for **Site name**.
 
 1. Select **Create site**.
 
-1. Select **Finish**.
+1. Select **Go to site**.
 
 1. If the **Start designing your site** pop-up dialog is displayed, close the dialog.
 
@@ -61,36 +61,36 @@ In this lab you will create a SharePoint site and list.
 
 1. Enter `Tasks` for **Name**  and select **Create**.
 
-1. Select **+ Add column**, select **Multiple lines of text**, and select **Next**.
+1. Select **+ Add column**, select **Multiple lines of text**, and then select **Next**.
 
-1. In the **Create a column** pane, enter or select the following values:
+1. In the **Create a column** pane, enter and select the following values:
 
    1. Name: `Description`
    1. Type: **Multiple lines of text**
 
 1. Select **Save**.
 
-1. Select **+Add column**, select **Text**, and select **Next**.
+1. Select **+Add column**, select **Text**, and then select **Next**.
 
-1. In the **Create a column** pane, enter or select the following values:
+1. In the **Create a column** pane, enter and select the following values:
 
    1. Name: `Owner Name`
    1. Type: **Single line of text**
 
 1. Select **Save**.
 
-1. Select **+ Add column**, select **Date and time**, and select **Next**.
+1. Select **+ Add column**, select **Date and time**, and then select **Next**.
 
-1. In the **Create a column** pane, enter or select the following values:
+1. In the **Create a column** pane, enter and select the following values:
 
    1. Name: `Deadline`
    1. Type: **Date and time**
 
 1. Select **Save**.
 
-1. Select **+ Add column**, select **Choice**, and select **Next**.
+1. Select **+ Add column**, select **Choice**, and then select **Next**.
 
-1. In the **Create a column** pane, enter or select the following values:
+1. In the **Create a column** pane, enter and select the following values:
 
    1. Name: `Approval Status`
    1. Type: **Choice**
@@ -104,7 +104,7 @@ In this lab you will create a SharePoint site and list.
 
 1. Select **Save**.
 
-1. Copy the first part of the URL of the SharePoint site, for example `https://m365x99999999.sharepoint.com/sites/PowerAutomate/`
+1. Copy the first part of the SharePoint site URL, for example `https://m365x99999999.sharepoint.com/sites/PowerAutomate/`
 
 ## Exercise 2 – Add data SharePoint list
 
@@ -114,28 +114,28 @@ In this lab you will create a SharePoint site and list.
 
     ![Screenshot of the SharePoint Tasks list.](../media/tasks-sharepoint-list.png)
 
-1. Select **+ Add new item** and enter the following data and select **Save**:
+1. Select **+ New**, enter the following data, and then select **Save**:
 
-   1. Title=`Contact Jon`
-   1. Description=`Call or email`
-   1. Owner Name=`MOD Administrator`
-   1. Deadline=**Yesterday**
-   1. Approval Status=**Declined**
+   1. Title:`Contact Jon`
+   1. Description:`Call or email`
+   1. Owner Name:`MOD Administrator`
+   1. Deadline:**Yesterday**
+   1. Approval Status:**Declined**
 
-1. Select **+ Add new item** and enter the following data and select **Save**:
+1. Select **+ New**, enter the following data, and then select **Save**:
 
-   1. Title=`Create Quote`
-   1. Description=`No discount`
-   1. Owner Name=`MOD Administrator`
-   1. Deadline=**Today**
-   1. Approval Status=**Approved**
+   1. Title:`Create Quote`
+   1. Description:`No discount`
+   1. Owner Name:`MOD Administrator`
+   1. Deadline:**Today**
+   1. Approval Status:**Approved**
 
-1. Select **+ Add new item** and enter the following data and select **Save**:
+1. Select **+ New**, enter the following data, and then select **Save**:
 
-   1. Title=`Visit Jim`
-   1. Description=`First visit`
-   1. Owner Name=`MOD Administrator`
-   1. Deadline=**Tomorrow**
-   1. Approval Status=**New**
+   1. Title:`Visit Jim`
+   1. Description:`First visit`
+   1. Owner Name:`MOD Administrator`
+   1. Deadline:**Tomorrow**
+   1. Approval Status:**New**
 
     ![Screenshot of the SharePoint Tasks data.](../media/tasks-data.png)
