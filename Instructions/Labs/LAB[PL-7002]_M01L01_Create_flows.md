@@ -44,64 +44,67 @@ In this lab you will create cloud flows.
 
 1. Select **Templates** from the left-side menu.
 
-1. Select the **Button** tab.
+1. Select the **All templates** tab.
 
-1. Enter `location` in the **Search templates** field and press **Enter**.
+1. Enter `Get Today's Weather Forecast` in the **Search templates** field and press **Enter**.
 
-    ![Screenshot of flow templates.](../media/flow-templates.png)
+    ![Screenshot of the weather forecast template search results.](../media/weather-template-search.png)
 
-1. Select **Get today's weather forecast for my current location**.
+1. Select **Get Today's Weather Forecast** by **Msnweather**.
 
-    ![Screenshot of create connections.](../media/create-connections.png)
+> [!NOTE]
+> Select the template that uses only **MSN Weather**, not **Get today's weather forecast for my current location**. The template used in this exercise does not require access to your device's location.
 
-1. Select **Create** for **MSN Weather**.
+1. If prompted, select **Create** for **MSN Weather**. If a valid connection is already listed, use the existing connection.
 
-1. Select **Create** for **Notifications**.
+    ![Screenshot of the MSN Weather connection and Continue button.](../media/weather-template-connection.png)
 
-1. Select **Create Flow**.
+1. Select **Continue** to open the flow designer.
 
-1. If the **Your flow is ready to go** pop-up dialog is displayed, select **Don't show me this again** and select **Got it**.
+1. Select the **Get forecast for today** action. Keep the template's **Location** set to **Hyderabad** and **Units** set to **Imperial**.
 
-    ![Screenshot of flow details.](../media/flow-details.png)
+    ![Screenshot of the weather action parameters and Save button.](../media/weather-template-designer.png)
+
+1. Select **Save**.
 
 ### Task 1.2 - Run the flow
 
-1. Select **Run**.
+1. Select **Test**, select **Manually**, and then select **Test**.
 
-1. If prompted, select **Allow** in the **Know your location** popup.
-
-    ![Screenshot of location popup.](../media/allow-location.png)
-
-> [!NOTE]
-> If the error *Location services must be enabled to run this flow* is shown, in the machine's **Settings -> Privacy & security -> Location**, enable **Location services** and **Enable Let apps access your location**.
-
-3. Select **Continue**.
+1. If a connection review is shown, select **Continue**.
 
 1. Select **Run flow**.
 
+    ![Screenshot of running the weather forecast flow.](../media/weather-template-run.png)
+
 1. Select **Done**.
 
-1. Wait for the flow to complete. You should see the **Succeeded** status in the flow run history.
+1. Wait for the flow to complete. You should see the **Your flow ran successfully** message.
 
-    ![Screenshot of flow run history.](../media/flow-run-history.png)
+1. Select the **<-** Back button from the top left of the command bar to return to the flow details page.
+
+1. Locate the **Succeeded** run in the flow run history.
+
+    ![Screenshot of the weather forecast flow run history.](../media/weather-template-history.png)
 
 ### Task 1.3 - Review the flow
 
 1. Select the date and time in the flow run history.
 
-1. Expand the **Condition**.
-
-1. Expand the **False** path.
-
-    ![Screenshot of flow run detail.](../media/flow-run-collapsed.png)
-
 1. Select the **Get forecast for today** action with the green tick.
 
-    ![Screenshot of flow run step output.](../media/flow-run-step.png)
+    ![Screenshot of the successful weather forecast action.](../media/weather-template-results.png)
 
-1. Select **Edit**, then expand the **Condition** action and both the **True** and **False** branches to view its actions.
+1. In **Run results**, review **Inputs**. Under **parameters**, notice that **Location** is **Hyderabad** and **units** is **I**, for Imperial.
 
-1. Select one of the **Send a push notification** actions.
+    ![Screenshot of the weather forecast action inputs.](../media/weather-template-inputs.png)
+
+1. Scroll to **Outputs**. Notice that **statusCode** is **200**. In **body**, review **responses.daily.tempHi**, **responses.daily.tempLo**, and **units.temperature**. The forecast temperatures are in Fahrenheit.
+
+> [!NOTE]
+> This template returns weather data in the flow run results. It does not send an email or a notification. Forecast values change each day.
+
+1. Select **Edit**, then select the **Get forecast for today** action to view its parameters.
 
 1. Select the **Flow checker** icon next to **Save**. There should be no errors or warnings.
 
@@ -111,9 +114,11 @@ In this lab you will create cloud flows.
 
 1. Select **Test**, select **Automatically** and then select **With a recently used trigger**. Select the **Succeeded** flow run.
 
-    ![Screenshot of test flow with recently used trigger.](../media/test-flow.png)
+    ![Screenshot of testing the weather forecast flow with a recently used trigger.](../media/weather-template-replay.png)
 
 1. Select **Test**.
+
+1. Wait for the replay to finish and confirm that the flow succeeds.
 
 1. Select the **<-** Back button from the top left of the command bar.
 
